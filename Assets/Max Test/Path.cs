@@ -79,6 +79,8 @@ public class ExampleEditor : Editor
             if (EditorGUI.EndChangeCheck())
             {
                 Undo.RecordObject(t, "Change Look At Target Position");
+                newTargetPosition.x = (int)newTargetPosition.x;
+                newTargetPosition.y = (int)newTargetPosition.y;
                 t.pathway[p] = newTargetPosition;
             }
             Handles.Label(pos, "point " + p.ToString());
