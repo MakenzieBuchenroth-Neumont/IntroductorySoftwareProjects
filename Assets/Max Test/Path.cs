@@ -1,43 +1,51 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
+using UnityEditor.PackageManager.UI;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class Path : MonoBehaviour
 {
-    [SerializeField] private List<Vector2> pathway;
-
+    [SerializeField] public List<Vector3> pathway;
+    [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private GameObject enemy;
     public float speed = 10;
-    public int currentpath = 0;
-    public float currentpathwayprogress = 0;
+    public int currentpoint = 0;
+    public float currentpathprogress = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        enemy.transform.position = pathway[currentpath];
+        enemy.transform.position = pathway[currentpoint];
+        lineRenderer.positionCount = pathway.Count;
+        lineRenderer.SetPositions(pathway.ToArray());
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (currentpath < pathway.Count - 1)
-        {
-            enemy.transform.position = Vector3.Lerp(pathway[currentpath], pathway[currentpath + 1], currentpathwayprogress);
-            currentpathwayprogress += (speed / Vector2.Distance(pathway[currentpath], pathway[currentpath + 1])) * Time.deltaTime;
 
-            if (currentpathwayprogress >= 1)
+        // probably place this stuff in the enemy
+        if (currentpoint < pathway.Count - 1)
+        {
+            // move the enemy from the currentpoint point to the next path point based on speed
+            enemy.transform.position = Vector3.Lerp(pathway[currentpoint], pathway[currentpoint + 1], currentpathprogress);
+            currentpathprogress += (speed / Vector2.Distance(pathway[currentpoint], pathway[currentpoint + 1])) * Time.deltaTime;
+
+            if (currentpathprogress >= 1)
             {
-                currentpathwayprogress = 0;
-                currentpath++;
+                currentpathprogress = 0;
+                currentpoint++;
             }
         } else
         {
-            currentpath = 0;
+            currentpoint = 0;
         }
     }
 
     // Draw a line for reference in editor
-    // update this at some point to use a sprite or something idk
+    // update this at some point to use a sprite or something better than a gizmo
     private void OnDrawGizmos()
     {
         if (pathway.Count > 1)
@@ -46,6 +54,34 @@ public class Path : MonoBehaviour
             {
                 Gizmos.DrawLine(pathway[i], pathway[i+1]);
             }
+        }
+    }
+}
+
+[CustomEditor(typeof(Path))]
+public class ExampleEditor : Editor
+{
+    // Custom in-scene UI for when ExampleScript
+    // component is selected.
+    public void OnSceneGUI()
+    {
+        var t = target as Path;
+        var tr = t.transform;
+        var color = new Color(1, 0.8f, 0.4f, 1);
+        Handles.color = color;
+        Handles.DrawPolyLine(t.pathway.ToArray());
+        for (int p = 0; p < t.pathway.Count; p++)
+        {
+            var pos = t.pathway[p];
+            GUI.color = color;
+            EditorGUI.BeginChangeCheck();
+            Vector3 newTargetPosition = Handles.PositionHandle(pos, Quaternion.identity);
+            if (EditorGUI.EndChangeCheck())
+            {
+                Undo.RecordObject(t, "Change Look At Target Position");
+                t.pathway[p] = newTargetPosition;
+            }
+            Handles.Label(pos, "point " + p.ToString());
         }
     }
 }

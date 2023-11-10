@@ -325,7 +325,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047328196}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -370,13 +370,13 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
+        value: 0.33333397
+        inSlope: 2.9767942
+        outSlope: 2.9767942
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.33333334
+        outWeight: 0.40221402
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -434,18 +434,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathway:
-  - {x: -9.9, y: 4.37}
-  - {x: -4.1, y: 3}
-  - {x: 0.54, y: 1.86}
-  - {x: 2.5, y: 0.39}
-  - {x: 3.28, y: -1.12}
-  - {x: 4.74, y: -2.46}
-  - {x: 6.66, y: -3.11}
-  - {x: 9.9, y: -3.68}
+  - {x: -9.99, y: 4.17, z: 0}
+  - {x: 6.219626, y: 3.495247, z: 0}
+  - {x: 6.741411, y: -0.4328878, z: 0}
+  - {x: -7.9155345, y: 0.8479433, z: 0}
+  - {x: -8.392398, y: -3.0463457, z: 0}
+  - {x: 9.885685, y: -3.5491393, z: 0}
+  lineRenderer: {fileID: 2047328197}
   enemy: {fileID: 1996493094}
   speed: 1
-  currentpath: 0
-  currentpathwayprogress: 0
+  currentpoint: 0
+  currentpathprogress: 0
 --- !u!4 &2047328199
 Transform:
   m_ObjectHideFlags: 0
