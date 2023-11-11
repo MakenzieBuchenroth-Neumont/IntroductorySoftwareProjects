@@ -8,6 +8,7 @@ using static UnityEngine.GraphicsBuffer;
 public class Path : MonoBehaviour
 {
     [SerializeField] public List<Vector3> pathway;
+    public int pathPointPercision = 2;
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private GameObject enemy;
     public float speed = 10;
@@ -79,8 +80,8 @@ public class ExampleEditor : Editor
             if (EditorGUI.EndChangeCheck())
             {
                 Undo.RecordObject(t, "Change Look At Target Position");
-                newTargetPosition.x = (int)newTargetPosition.x;
-                newTargetPosition.y = (int)newTargetPosition.y;
+                newTargetPosition.x = Mathf.Round(newTargetPosition.x * t.pathPointPercision) / t.pathPointPercision;
+                newTargetPosition.y = Mathf.Round(newTargetPosition.y * t.pathPointPercision) / t.pathPointPercision;
                 t.pathway[p] = newTargetPosition;
             }
             Handles.Label(pos, "point " + p.ToString());

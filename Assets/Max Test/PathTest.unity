@@ -434,12 +434,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathway:
-  - {x: -9.99, y: 4.17, z: 0}
-  - {x: 6.219626, y: 3.495247, z: 0}
-  - {x: 6.741411, y: -0.4328878, z: 0}
-  - {x: -7.9155345, y: 0.8479433, z: 0}
-  - {x: -8.392398, y: -3.0463457, z: 0}
-  - {x: 9.885685, y: -3.5491393, z: 0}
+  - {x: -10, y: 4, z: 0}
+  - {x: 8, y: 4, z: 0}
+  - {x: 8, y: -0, z: 0}
+  - {x: -8, y: 0, z: 0}
+  - {x: -8, y: -4, z: 0}
+  - {x: 10, y: -4, z: 0}
+  pathPointPercision: 2
   lineRenderer: {fileID: 2047328197}
   enemy: {fileID: 1996493094}
   speed: 1
