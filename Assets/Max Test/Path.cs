@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.PackageManager.UI;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
 using static UnityEngine.GraphicsBuffer;
 
 public class Path : MonoBehaviour
@@ -19,8 +20,7 @@ public class Path : MonoBehaviour
     void Start()
     {
         enemy.transform.position = pathway[currentpoint];
-        lineRenderer.positionCount = pathway.Count;
-        lineRenderer.SetPositions(pathway.ToArray());
+        SetLineRenderer();
     }
 
     // Update is called once per frame
@@ -45,6 +45,12 @@ public class Path : MonoBehaviour
         }
     }
 
+    public void SetLineRenderer()
+    {
+        lineRenderer.positionCount = pathway.Count;
+        lineRenderer.SetPositions(pathway.ToArray());
+    }
+
     // Draw a line for reference in editor
     // update this at some point to use a sprite or something better than a gizmo
     private void OnDrawGizmos()
@@ -62,6 +68,7 @@ public class Path : MonoBehaviour
 [CustomEditor(typeof(Path))]
 public class ExampleEditor : Editor
 {
+    //
     // Custom in-scene UI for when ExampleScript
     // component is selected.
     public void OnSceneGUI()
@@ -71,20 +78,47 @@ public class ExampleEditor : Editor
         var color = new Color(1, 0.8f, 0.4f, 1);
         Handles.color = color;
         Handles.DrawPolyLine(t.pathway.ToArray());
-        for (int p = 0; p < t.pathway.Count; p++)
+        if (t.pathway.Count > 0)
         {
-            var pos = t.pathway[p];
-            GUI.color = color;
-            EditorGUI.BeginChangeCheck();
-            Vector3 newTargetPosition = Handles.PositionHandle(pos, Quaternion.identity);
-            if (EditorGUI.EndChangeCheck())
+            for (int p = 0; p < t.pathway.Count; p++)
             {
-                Undo.RecordObject(t, "Change Look At Target Position");
-                newTargetPosition.x = Mathf.Round(newTargetPosition.x * t.pathPointPercision) / t.pathPointPercision;
-                newTargetPosition.y = Mathf.Round(newTargetPosition.y * t.pathPointPercision) / t.pathPointPercision;
-                t.pathway[p] = newTargetPosition;
+                var pos = t.pathway[p];
+                if (p == t.pathway.Count - 1)
+                {
+                    Handles.color = Color.green;
+                    if (Handles.Button(pos + new Vector3(1, 1, 0), Quaternion.identity, 0.75f, 0.1f, Handles.SphereHandleCap))
+                    {
+                        t.pathway.Add(pos + new Vector3(1, 1, 0));
+                        t.SetLineRenderer();
+                    }
+                    Handles.color = Color.red;
+                    if (Handles.Button(pos + new Vector3(-1, 1, 0), Quaternion.identity, 0.75f, 0.1f, Handles.SphereHandleCap))
+                    {
+                        t.pathway.Remove(pos);
+                        t.SetLineRenderer();
+                    }
+                }
+                EditorGUI.BeginChangeCheck();
+                Vector3 newTargetPosition = Handles.PositionHandle(pos, Quaternion.identity);
+                if (EditorGUI.EndChangeCheck())
+                {
+                    Undo.RecordObject(t, "Change Look At Target Position");
+                    newTargetPosition.x = Mathf.Round(newTargetPosition.x * t.pathPointPercision) / t.pathPointPercision;
+                    newTargetPosition.y = Mathf.Round(newTargetPosition.y * t.pathPointPercision) / t.pathPointPercision;
+                    t.pathway[p] = newTargetPosition;
+                    t.SetLineRenderer();
+                }
+                Handles.Label(pos, "point " + p.ToString());
             }
-            Handles.Label(pos, "point " + p.ToString());
+        } 
+        else
+        {
+            Handles.color = Color.blue;
+            if (Handles.Button(t.gameObject.transform.position, Quaternion.identity, 0.75f, 0.1f, Handles.SphereHandleCap))
+            {
+                t.pathway.Add(t.gameObject.transform.position);
+                t.SetLineRenderer();
+            }
         }
     }
 }
