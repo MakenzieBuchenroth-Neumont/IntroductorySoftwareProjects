@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-public class Tower : MonoBehaviour
+public class TowerRotationFace : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform towerRotationPoint;
@@ -11,7 +11,7 @@ public class Tower : MonoBehaviour
 
     [Header("Attribute")]
     [SerializeField] private float targetingRange = 5.0f;
-    //[SerializeField] private float rotationSpeed = 5.0f;
+    [SerializeField] private float rotationSpeed = 5.0f;
     [SerializeField] private Sprite[] spriteArray;
 
     private SpriteRenderer spriteRenderer;
@@ -20,9 +20,12 @@ public class Tower : MonoBehaviour
 
     private Transform target = null;
 
+    private float angle = 0;
+
     void Start()
     {
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        FindTarget();
     }
 
     private void Update()
@@ -49,6 +52,11 @@ public class Tower : MonoBehaviour
         if (hits.Length > 0)
         {
             target = hits[0].transform;
+            Debug.Log("Target found: " + target.name);
+        }
+        else
+        {
+            Debug.Log("No target found.");
         }
     }
 
@@ -57,16 +65,18 @@ public class Tower : MonoBehaviour
         return Vector2.Distance(transform.position, target.position) <= targetingRange;
     }
 
-    private float angle = 0.0f;
     private void RotateTowardsTarget()
     {
         angle = Mathf.Atan2(target.position.y - transform.position.y, target.position.x - transform.position.x) * Mathf.Rad2Deg - 90.0f;
 
-        //Quaternion targetRotation = Quaternion.Euler(new Vector3(0.0f, 0.0f, angle));
-        //towerRotationPoint.rotation = Quaternion.RotateTowards(towerRotationPoint.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        Quaternion targetRotation = Quaternion.Euler(new Vector3(0.0f, 0.0f, angle));
+        towerRotationPoint.rotation = Quaternion.RotateTowards(towerRotationPoint.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
     private void ChangeSprite()
     {
+        angle = (angle + 360) % 360; // Normalize the angle
+        Debug.Log("Current angle: " + angle);
+
         // change sprite based on angle for 8 directions
         if (angle >= 0 && angle < 45)
             spriteRenderer.sprite = spriteArray[0];
@@ -91,6 +101,4 @@ public class Tower : MonoBehaviour
         Handles.color = Color.green;
         Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
     }
-
-    // Start is called before the first frame update
 }

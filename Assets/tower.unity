@@ -163,7 +163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1041139997}
-  - component: {fileID: 1041139996}
+  - component: {fileID: 1041139998}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -171,20 +171,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1041139996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041139995}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 024aeaaf7f11eb844981030b9e055daf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  towerRotationPoint: {fileID: 1355063756}
-  targetingRange: 5
 --- !u!4 &1041139997
 Transform:
   m_ObjectHideFlags: 0
@@ -198,9 +184,28 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1355063756}
+  - {fileID: 1724090300}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1041139998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041139995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024aeaaf7f11eb844981030b9e055daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerRotationPoint: {fileID: 1724090300}
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 64
+  targetingRange: 5
+  rotationSpeed: 5
+  spriteArray: []
 --- !u!1 &1355063755
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,7 +216,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1355063756}
   - component: {fileID: 1355063758}
-  - component: {fileID: 1355063757}
   m_Layer: 0
   m_Name: TowerBaseDown
   m_TagString: Player
@@ -227,28 +231,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355063755}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.1788412, y: 0.14912358, z: 0.04804726}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 482366203}
-  m_Father: {fileID: 1041139997}
+  m_Father: {fileID: 1724090300}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1355063757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1355063755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 024aeaaf7f11eb844981030b9e055daf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  towerRotationPoint: {fileID: 1355063756}
-  targetingRange: 1.3
 --- !u!212 &1355063758
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -301,6 +291,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1724090299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1724090300}
+  m_Layer: 0
+  m_Name: RotatePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1724090300
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724090299}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.1788412, y: -0.14912358, z: -0.04804726}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1355063756}
+  m_Father: {fileID: 1041139997}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1994860332
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,7 +384,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
