@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &482366202
+--- !u!1 &451843493
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,29 +131,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 482366203}
+  - component: {fileID: 451843495}
+  - component: {fileID: 451843494}
   m_Layer: 0
-  m_Name: RotationPoint
+  m_Name: LevelManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &482366203
+--- !u!114 &451843494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451843493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ab92e9420322b4393cac470d2e89d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPrefabs:
+  - {fileID: 1041139995}
+--- !u!4 &451843495
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482366202}
+  m_GameObject: {fileID: 451843493}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1707339, y: -0.6789953, z: -0.059716754}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1355063756}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1041139995
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,16 +211,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1041139995}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 024aeaaf7f11eb844981030b9e055daf, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b5264d04751f6648a789a3f676e07cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerRotationPoint: {fileID: 1724090300}
+  towerRotationPoint: {fileID: 0}
   enemyMask:
     serializedVersion: 2
-    m_Bits: 64
-  targetingRange: 5
+    m_Bits: 0
+  bulletPrefab: {fileID: 0}
+  firingPoint: {fileID: 0}
+  targetingRange: 2
   rotationSpeed: 5
-  spriteArray: []
+  attackRate: 1
 --- !u!1 &1355063755
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,8 +252,7 @@ Transform:
   m_LocalPosition: {x: -1.1788412, y: 0.14912358, z: 0.04804726}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 482366203}
+  m_Children: []
   m_Father: {fileID: 1724090300}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1355063758
@@ -421,3 +437,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1994860335}
   - {fileID: 1041139997}
+  - {fileID: 451843495}
