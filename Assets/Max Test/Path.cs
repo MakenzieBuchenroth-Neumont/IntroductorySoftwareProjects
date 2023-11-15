@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEditor.PackageManager.UI;
 using UnityEngine;
@@ -11,37 +12,24 @@ public class Path : MonoBehaviour
     [SerializeField] public List<Vector3> pathway;
     public int pathPointPercision = 2;
     [SerializeField] private LineRenderer lineRenderer;
-    [SerializeField] private GameObject enemy;
-    public float speed = 10;
-    public int currentpoint = 0;
-    public float currentpathprogress = 0;
+    [SerializeField] private List<Batch> batches;
+    [SerializeField] private List<Batch> usedBatches;
 
     // Start is called before the first frame update
     void Start()
     {
-        enemy.transform.position = pathway[currentpoint];
         SetLineRenderer();
+        StartCoroutine(WaveSpawner());
     }
 
-    // Update is called once per frame
-    void Update()
+    public IEnumerator WaveSpawner()
     {
-
-        // probably place this stuff in the enemy
-        if (currentpoint < pathway.Count - 1)
+        for (int currentbatch = 0; currentbatch < batches.Count; currentbatch++)
         {
-            // move the enemy from the currentpoint point to the next path point based on speed
-            enemy.transform.position = Vector3.Lerp(pathway[currentpoint], pathway[currentpoint + 1], currentpathprogress);
-            currentpathprogress += (speed / Vector2.Distance(pathway[currentpoint], pathway[currentpoint + 1])) * Time.deltaTime;
-
-            if (currentpathprogress >= 1)
-            {
-                currentpathprogress = 0;
-                currentpoint++;
-            }
-        } else
-        {
-            currentpoint = 0;
+            Batch batch = new Batch(batches[currentbatch]);
+            usedBatches.Add(batch);
+            StartCoroutine(usedBatches[currentbatch].SpawnEnemy());
+            yield return new WaitForSeconds(usedBatches[currentbatch].waveDelay);
         }
     }
 
