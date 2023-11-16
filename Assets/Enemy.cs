@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-<<<<<<< Updated upstream
     // Start is called before the first frame update
     [SerializeField] int hit_points = 0;
     [SerializeField] float speed = 0.1f;
@@ -18,8 +17,8 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         SetEnemyType(enemyType.Tank);
-        switch (type) 
-        { 
+        switch (type)
+        {
             case enemyType.Basic:
                 hit_points = 5;
                 max_hit_points = hit_points;
@@ -39,24 +38,8 @@ public class Enemy : MonoBehaviour
                 speed = 2.0f;
                 break;
         }
-        
-       
-=======
-    public RigidBody2D enemy;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
->>>>>>> Stashed changes
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
-<<<<<<< Updated upstream
-
 
     public void TakeDamage(int damage)
     {
@@ -70,6 +53,4 @@ public class Enemy : MonoBehaviour
     {
         Destroy(gameObject);
     }
-=======
->>>>>>> Stashed changes
 }
