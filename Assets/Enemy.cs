@@ -10,6 +10,14 @@ public class Enemy : MonoBehaviour
     [SerializeField] int max_hit_points = 0;
     [SerializeField] int damage = 0;
     [SerializeField] enemyType type;
+
+    // this is the variables used in walking across the line
+    private Path pathIfollow;
+    private EnemySpawner spawner;
+
+    public int currentpoint = 0;
+    public float currentpathprogress = 0;
+
     public enum enemyType { Basic, Tank, Fast }
     public enemyType GetEnemyType() { return type; }
     public void SetEnemyType(enemyType ee) { type = ee; }
@@ -39,16 +47,45 @@ public class Enemy : MonoBehaviour
                 break;
         }
 
-
+        transform.position = pathIfollow.pathway[currentpoint];
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        // probably place this stuff in the enemy
+        if (currentpoint < pathIfollow.pathway.Count - 1)
+        {
+            // move the enemy from the currentpoint point to the next path point based on speed
+            transform.position = Vector3.Lerp(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1], currentpathprogress);
+            currentpathprogress += (speed / Vector2.Distance(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1])) * Time.deltaTime;
+
+            if (currentpathprogress >= 1)
+            {
+                currentpathprogress = 0;
+                currentpoint++;
+            }
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
     }
 
+    private void OnDestroy()
+    {
+        spawner.RemoveEnemy(this.gameObject);
+    }
 
+    public void SetEnemySpawner(EnemySpawner e)
+    {
+        spawner = e;
+    }
+
+    public void SetPath(Path path)
+    {
+        pathIfollow = path;
+    }
 
     public void TakeDamage(int damage)
     {
