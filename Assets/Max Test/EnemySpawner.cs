@@ -52,8 +52,8 @@ public class EnemySpawner : MonoBehaviour
         while (batch.numberOfEnemy > 0)
         {
             GameObject g = Instantiate(batch.GetEnemy());
-            g.GetComponent<LineFollower>().SetPath(paths[chosenpath]);
-            g.GetComponent<LineFollower>().SetEnemySpawner(this);
+            g.GetComponent<Enemy>().SetPath(paths[chosenpath]);
+            g.GetComponent<Enemy>().SetEnemySpawner(this);
             enemies.Add(g);
             batch.numberOfEnemy--;
             yield return new WaitForSeconds(batch.enemyDelay);
