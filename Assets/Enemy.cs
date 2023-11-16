@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+<<<<<<< Updated upstream
     // Start is called before the first frame update
     [SerializeField] int hit_points = 0;
     [SerializeField] float speed = 0.1f;
@@ -40,6 +41,13 @@ public class Enemy : MonoBehaviour
         }
         
        
+=======
+    public RigidBody2D enemy;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+>>>>>>> Stashed changes
     }
 
     // Update is called once per frame
@@ -47,6 +55,7 @@ public class Enemy : MonoBehaviour
     {
         
     }
+<<<<<<< Updated upstream
 
 
     public void TakeDamage(int damage)
@@ -61,4 +70,6 @@ public class Enemy : MonoBehaviour
     {
         Destroy(gameObject);
     }
+=======
+>>>>>>> Stashed changes
 }
