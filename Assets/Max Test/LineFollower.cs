@@ -5,6 +5,7 @@ using UnityEngine;
 public class LineFollower : MonoBehaviour
 {
     private Path pathIfollow;
+    private EnemySpawner spawner;
 
     public float speed = 10;
     public int currentpoint = 0;
@@ -36,6 +37,16 @@ public class LineFollower : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+    }
+
+    private void OnDestroy()
+    {
+        spawner.RemoveEnemy(this.gameObject);
+    }
+
+    public void SetEnemySpawner(EnemySpawner e)
+    {
+        spawner = e;
     }
 
     public void SetPath(Path path)

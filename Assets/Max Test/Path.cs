@@ -4,33 +4,17 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEditor.PackageManager.UI;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
-using static UnityEngine.GraphicsBuffer;
 
 public class Path : MonoBehaviour
 {
     [SerializeField] public List<Vector3> pathway;
     public int pathPointPercision = 2;
     [SerializeField] private LineRenderer lineRenderer;
-    [SerializeField] private List<Batch> batches;
-    [SerializeField] private List<Batch> usedBatches;
 
     // Start is called before the first frame update
     void Start()
     {
         SetLineRenderer();
-        StartCoroutine(WaveSpawner());
-    }
-
-    public IEnumerator WaveSpawner()
-    {
-        for (int currentbatch = 0; currentbatch < batches.Count; currentbatch++)
-        {
-            Batch batch = new Batch(batches[currentbatch]);
-            usedBatches.Add(batch);
-            StartCoroutine(usedBatches[currentbatch].SpawnEnemy());
-            yield return new WaitForSeconds(usedBatches[currentbatch].waveDelay);
-        }
     }
 
     public void SetLineRenderer()

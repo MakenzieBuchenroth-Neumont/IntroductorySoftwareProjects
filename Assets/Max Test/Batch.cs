@@ -2,30 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName ="new Wave",menuName ="Enemy Wave")]
+[CreateAssetMenu(fileName ="new Batch",menuName ="Enemy Batch")]
 public class Batch : ScriptableObject
 {
     [SerializeField] private GameObject enemy;
-    [SerializeField] private int numberOfEnemy;
-    [SerializeField] private float enemyDelay;
-    public float waveDelay;
+    public int numberOfEnemy;
+    public float enemyDelay;
+    public float batchDelay = 1.0f;
 
     public Batch(Batch b)
     {
         enemy = b.enemy;
         numberOfEnemy = b.numberOfEnemy;
         enemyDelay = b.enemyDelay;
-        waveDelay = b.waveDelay;
+        batchDelay = b.batchDelay;
     }
 
-    public IEnumerator SpawnEnemy()
+    public GameObject GetEnemy()
     {
-        while(numberOfEnemy > 0)
-        {
-            Instantiate(enemy).GetComponent<LineFollower>().SetPath(FindAnyObjectByType<Path>());
-            numberOfEnemy--;
-            yield return new WaitForSeconds(enemyDelay);
-        }
-        Destroy(this);
+        return enemy;
     }
 }
