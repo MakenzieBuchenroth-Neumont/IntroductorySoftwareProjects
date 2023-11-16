@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] int max_hit_points = 0;
     [SerializeField] int damage = 0;
     [SerializeField] enemyType type;
+    private Sprite sprite1;
 
     // this is the variables used in walking across the line
     private Path pathIfollow;
@@ -24,7 +25,6 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        SetEnemyType(enemyType.Tank);
         switch (type)
         {
             case enemyType.Basic:
