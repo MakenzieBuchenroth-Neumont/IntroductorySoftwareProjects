@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5ed32b1dd0952740acff367c060210d, type: 3}
+  m_Name: w2b1-3
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 8450836921597532949, guid: 6bdd4e07ad2520e4c95d0f89ca58714b, type: 3}
+  numberOfEnemy: 10
+  enemyDelay: 0.25
+  batchDelay: 7
