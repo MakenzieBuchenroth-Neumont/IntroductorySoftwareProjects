@@ -25,19 +25,19 @@ public class TowerRotationFace : MonoBehaviour
     void Start()
     {
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-        FindTarget();
+        //FindTarget();
     }
 
     private void Update()
     {
         if (target == null)
         {
-            FindTarget();
+            //FindTarget();
             return;
         }
 
         RotateTowardsTarget();
-        ChangeSprite();
+        //ChangeSprite();
 
         if (!CheckTargetIsInRange())
         {
@@ -45,9 +45,12 @@ public class TowerRotationFace : MonoBehaviour
         }
     }
 
+    /*
     private void FindTarget()
     {
-        RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, targetingRange, Vector2.zero, 0.0f, enemyMask);
+        //RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, targetingRange, Vector2.zero, 0.0f, enemyMask);
+
+        //RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, targetingRange, Vector2.zero, 0.0f, enemyMask);
 
         if (hits.Length > 0)
         {
@@ -59,6 +62,7 @@ public class TowerRotationFace : MonoBehaviour
             Debug.Log("No target found.");
         }
     }
+    */
 
     private bool CheckTargetIsInRange()
     {
@@ -72,6 +76,7 @@ public class TowerRotationFace : MonoBehaviour
         Quaternion targetRotation = Quaternion.Euler(new Vector3(0.0f, 0.0f, angle));
         towerRotationPoint.rotation = Quaternion.RotateTowards(towerRotationPoint.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
+    /*
     private void ChangeSprite()
     {
         angle = (angle + 360) % 360; // Normalize the angle
@@ -95,6 +100,7 @@ public class TowerRotationFace : MonoBehaviour
         else if (angle >= 315 && angle < 360)
             spriteRenderer.sprite = spriteArray[7];
     }
+    */
 
     private void OnDrawGizmosSelected()
     {
