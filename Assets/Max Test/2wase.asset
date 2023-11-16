@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5ed32b1dd0952740acff367c060210d, type: 3}
-  m_Name: w1b2
+  m_Name: 2wase
   m_EditorClassIdentifier: 
   enemy: {fileID: 7660246423821641570, guid: 5eaf02e2da541e247a28c49ba928a329, type: 3}
   numberOfEnemy: 15
   enemyDelay: 1
-  batchDelay: 0
+  waveDelay: 0

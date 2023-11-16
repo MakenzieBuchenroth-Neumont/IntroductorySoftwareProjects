@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5ed32b1dd0952740acff367c060210d, type: 3}
-  m_Name: w1b1
+  m_Name: TestWave
   m_EditorClassIdentifier: 
   enemy: {fileID: 8450836921597532949, guid: 6bdd4e07ad2520e4c95d0f89ca58714b, type: 3}
-  numberOfEnemy: 30
+  numberOfEnemy: 60
   enemyDelay: 1.5
-  batchDelay: 5
+  waveDelay: 5
