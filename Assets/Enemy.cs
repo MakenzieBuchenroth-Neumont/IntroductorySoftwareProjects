@@ -57,13 +57,26 @@ public class Enemy : MonoBehaviour
         if (currentpoint < pathIfollow.pathway.Count - 1)
         {
             // move the enemy from the currentpoint point to the next path point based on speed
-            transform.position = Vector3.Lerp(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1], currentpathprogress);
-            currentpathprogress += (speed / Vector2.Distance(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1])) * Time.deltaTime;
-
-            if (currentpathprogress >= 1)
+            if (currentpoint >= 0)
             {
-                currentpathprogress = 0;
-                currentpoint++;
+                transform.position = Vector3.Lerp(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1], currentpathprogress);
+                currentpathprogress += (speed / Vector2.Distance(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1])) * Time.deltaTime;
+            }
+
+            if (speed > 0)
+            {
+                if (currentpathprogress >= 1)
+                {
+                    currentpathprogress = 0;
+                    currentpoint++;
+                }
+            } else
+            {
+                if (currentpathprogress <= 0)
+                {
+                    currentpathprogress = 1;
+                    currentpoint--;
+                }
             }
         }
         else
