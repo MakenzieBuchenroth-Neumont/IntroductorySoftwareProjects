@@ -137,4 +137,6 @@ MonoBehaviour:
   speed: 0.1
   max_hit_points: 0
   damage: 0
-  type: 0
+  type: 2
+  currentpoint: 0
+  currentpathprogress: 0
