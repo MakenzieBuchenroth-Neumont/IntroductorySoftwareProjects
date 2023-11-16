@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Plot : MonoBehaviour {
     [Header("References")]
@@ -24,9 +25,13 @@ public class Plot : MonoBehaviour {
     private void OnMouseDown() {
         if (tower != null) return;
 
-        Tower towerToBuild = BuildManager.main.getSelectedTower();
-        if (LevelManager.main.spendCurrency(towerToBuild.cost)) {
-            tower = Instantiate(towerToBuild.prefab, transform.position, Quaternion.identity);
+        if (!EventSystem.current.IsPointerOverGameObject())
+        {
+            Tower towerToBuild = BuildManager.main.getSelectedTower();
+            if (LevelManager.main.spendCurrency(towerToBuild.cost))
+            {
+                tower = Instantiate(towerToBuild.prefab, transform.position, Quaternion.identity);
+            }
         }
     }
 }
