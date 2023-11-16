@@ -39,7 +39,16 @@ public class Enemy : MonoBehaviour
                 break;
         }
 
+
     }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+
 
     public void TakeDamage(int damage)
     {
