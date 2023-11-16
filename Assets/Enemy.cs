@@ -10,7 +10,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] int max_hit_points = 0;
     [SerializeField] int damage = 0;
     [SerializeField] enemyType type;
-    private Sprite sprite1;
+    public Sprite sprite1;
+    public Sprite sprite2;
 
     // this is the variables used in walking across the line
     private Path pathIfollow;
@@ -32,10 +33,12 @@ public class Enemy : MonoBehaviour
                 max_hit_points = hit_points;
                 damage = 1;
                 speed = 1.0f;
+                ChangeSprite(sprite1);
                 break;
             case enemyType.Tank:
                 hit_points = 20;
                 max_hit_points = hit_points;
+                ChangeSprite(sprite2);
                 damage = 3;
                 speed = 0.25f;
                 break;
@@ -44,6 +47,7 @@ public class Enemy : MonoBehaviour
                 max_hit_points = hit_points;
                 damage = 2;
                 speed = 2.0f;
+                ChangeSprite(sprite2);
                 break;
         }
 
@@ -53,7 +57,6 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // probably place this stuff in the enemy
         if (currentpoint < pathIfollow.pathway.Count - 1)
         {
             // move the enemy from the currentpoint point to the next path point based on speed
@@ -83,6 +86,7 @@ public class Enemy : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+
     }
 
     private void OnDestroy()
@@ -99,7 +103,10 @@ public class Enemy : MonoBehaviour
     {
         pathIfollow = path;
     }
-
+    public void ChangeSprite(Sprite newSprite) 
+    { 
+        GetComponent<SpriteRenderer>().sprite = newSprite;
+    }
     public void TakeDamage(int damage)
     {
         hit_points -= damage;
