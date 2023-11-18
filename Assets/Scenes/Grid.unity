@@ -225,7 +225,7 @@ MonoBehaviour:
   towers:
   - name: Bulbasaur
     cost: 50
-    prefab: {fileID: 5717849059140205141, guid: 635a7ab4d90387445b3ec18509a57edf, type: 3}
+    prefab: {fileID: 1986569252927529184, guid: 1d3ddc409517f754589bad447cf07889, type: 3}
   - name: Charmander
     cost: 50
     prefab: {fileID: 6594571902950236611, guid: 90fba822d9af0a144b13024ee5d982b6, type: 3}
@@ -254,7 +254,7 @@ Transform:
   m_GameObject: {fileID: 8230940}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.219806, y: 0.44275808, z: -9.986399}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6873,7 +6873,7 @@ Transform:
   m_GameObject: {fileID: 401643075}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8420402, y: -0.07446328, z: 0.06403902}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
