@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class TowerTargeting : MonoBehaviour
@@ -88,5 +89,11 @@ public class TowerTargeting : MonoBehaviour
     {
         Angle = Mathf.Atan2(target.position.y - transform.position.y, target.position.x - transform.position.x) * Mathf.Rad2Deg;
         Angle = (Angle - 360) % 360; // Normalize angle to be within 0-360 degrees
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Handles.color = Color.green;
+        Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
     }
 }
