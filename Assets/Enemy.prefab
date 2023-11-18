@@ -140,5 +140,6 @@ MonoBehaviour:
   type: 2
   sprite1: {fileID: 21300000, guid: 4b3293b837a25564ca87e190c9cde4ec, type: 3}
   sprite2: {fileID: 21300000, guid: d1176f3aded253849b62bc630328ec12, type: 3}
+  sprite3: {fileID: 21300000, guid: 2672476a0524bee4ebe3e1c6ffcb9cd6, type: 3}
   currentpoint: 0
   currentpathprogress: 0

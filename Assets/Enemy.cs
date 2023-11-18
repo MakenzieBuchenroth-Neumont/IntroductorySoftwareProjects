@@ -10,8 +10,16 @@ public class Enemy : MonoBehaviour
     [SerializeField] int max_hit_points = 0;
     [SerializeField] int damage = 0;
     [SerializeField] enemyType type;
+
     public Sprite sprite1;
+    [SerializeField] private Sprite basic_up;
+    [SerializeField] private Sprite basic_down;
     public Sprite sprite2;
+    [SerializeField] private Sprite fast_up;
+    [SerializeField] private Sprite fast_down;
+    public Sprite sprite3;
+    [SerializeField] private Sprite big_up;
+    [SerializeField] private Sprite big_down;
 
     // this is the variables used in walking across the line
     private Path pathIfollow;
@@ -38,7 +46,7 @@ public class Enemy : MonoBehaviour
             case enemyType.Tank:
                 hit_points = 20;
                 max_hit_points = hit_points;
-                ChangeSprite(sprite2);
+                ChangeSprite(sprite3);
                 damage = 3;
                 speed = 0.25f;
                 break;
@@ -64,6 +72,7 @@ public class Enemy : MonoBehaviour
             {
                 transform.position = Vector3.Lerp(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1], currentpathprogress);
                 currentpathprogress += (speed / Vector2.Distance(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1])) * Time.deltaTime;
+                UpdateSprite();
             }
 
             if (speed > 0)
@@ -106,6 +115,29 @@ public class Enemy : MonoBehaviour
     public void ChangeSprite(Sprite newSprite) 
     { 
         GetComponent<SpriteRenderer>().sprite = newSprite;
+    }
+    private void FlipObject()
+    {
+        Vector3 scale = transform.localScale;
+
+        scale.x = -scale.x;
+
+        transform.localScale = scale;
+    }
+    public void UpdateSprite()
+    {
+        switch(type)
+        {
+            case enemyType.Basic:
+                if (transform.position.y < 0) ChangeSprite(basic_down);
+                else if (transform.position.y > 0) ChangeSprite(basic_up);
+                if (transform.position.x < 0) FlipObject();
+                break;
+            case enemyType.Fast:
+                break;
+            case enemyType.Tank:
+                break;
+        }
     }
     public void TakeDamage(int damage)
     {
