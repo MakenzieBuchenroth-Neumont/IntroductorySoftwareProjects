@@ -91,7 +91,7 @@ public class TowerTargeting : MonoBehaviour
         Angle = (Angle - 360) % 360; // Normalize angle to be within 0-360 degrees
     }
 
-    private void OnDrawGizmosSelected()
+    private void OnDrawGizmos()
     {
         Handles.color = Color.green;
         Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
