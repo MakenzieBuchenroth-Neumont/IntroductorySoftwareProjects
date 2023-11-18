@@ -49,11 +49,11 @@ MonoBehaviour:
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 9072534239795700235, guid: bb0b61f269eaef74497e378b891ecc48, type: 3}
   firingPoint: {fileID: 0}
   spriteChange: {fileID: 4029464519436880868}
-  targetingRange: 2
-  attackRate: 1
+  targetingRange: 14.12
+  attackRate: 8.7
   Angle: 0
 --- !u!1 &6654155111898163481
 GameObject:

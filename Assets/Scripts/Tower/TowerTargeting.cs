@@ -62,7 +62,7 @@ public class TowerTargeting : MonoBehaviour
 
     private void Attack()
     {
-        Debug.Log("Attacked");
+        Instantiate(bulletPrefab, transform.position, Quaternion.Euler(0, 0, Angle/2));
     }
 
     private void FindTarget()
@@ -93,7 +93,7 @@ public class TowerTargeting : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Handles.color = Color.green;
+        Handles.color = Color.black;
         Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
     }
 }
