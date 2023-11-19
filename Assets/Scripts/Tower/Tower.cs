@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine;
 
-public class TowerTargeting : MonoBehaviour
+public class Tower : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform towerRotationPoint;
