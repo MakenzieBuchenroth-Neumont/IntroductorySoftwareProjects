@@ -21,6 +21,7 @@ public class SpriteChange : MonoBehaviour
         // Assuming spriteArray is ordered from 0 degrees clockwise to 315 degrees (for 8 sprites)
         // and 0 degrees is facing right, adjust as necessary for your sprite orientations
         int spriteIndex = Mathf.RoundToInt(angle / 45f) % spriteArray.Length;
+        Debug.Log(spriteIndex);
         spriteRenderer.sprite = spriteArray[spriteIndex];
     }
 
