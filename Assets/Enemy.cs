@@ -14,12 +14,16 @@ public class Enemy : MonoBehaviour
     public Sprite sprite1;
     [SerializeField] private Sprite basic_up;
     [SerializeField] private Sprite basic_down;
+    [SerializeField] private Sprite basic_left;
+    
     public Sprite sprite2;
     [SerializeField] private Sprite fast_up;
     [SerializeField] private Sprite fast_down;
+    [SerializeField] private Sprite fast_left;
     public Sprite sprite3;
     [SerializeField] private Sprite big_up;
     [SerializeField] private Sprite big_down;
+    [SerializeField] private Sprite big_left;
 
     // this is the variables used in walking across the line
     private Path pathIfollow;
@@ -31,6 +35,7 @@ public class Enemy : MonoBehaviour
     public enum enemyType { Basic, Tank, Fast }
     public enemyType GetEnemyType() { return type; }
     public void SetEnemyType(enemyType ee) { type = ee; }
+    public bool flipped = true;
 
     void Start()
     {
@@ -72,7 +77,6 @@ public class Enemy : MonoBehaviour
             {
                 transform.position = Vector3.Lerp(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1], currentpathprogress);
                 currentpathprogress += (speed / Vector2.Distance(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1])) * Time.deltaTime;
-                UpdateSprite();
             }
 
             if (speed > 0)
@@ -81,6 +85,8 @@ public class Enemy : MonoBehaviour
                 {
                     currentpathprogress = 0;
                     currentpoint++;
+                    UpdateSprite();
+
                 }
             } else
             {
@@ -88,6 +94,8 @@ public class Enemy : MonoBehaviour
                 {
                     currentpathprogress = 1;
                     currentpoint--;
+                    UpdateSprite();
+
                 }
             }
         }
@@ -118,22 +126,31 @@ public class Enemy : MonoBehaviour
     }
     private void FlipObject()
     {
-        Vector3 scale = transform.localScale;
-
-        scale.x = -scale.x;
-
-        transform.localScale = scale;
+        Vector3 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+        flipped = !flipped;
     }
-    public void UpdateSprite()
+public void UpdateSprite()
     {
-        switch(type)
+        Vector3 newpos = pathIfollow.pathway[currentpoint + 1];
+        Vector3 currentpos = pathIfollow.pathway[currentpoint];
+
+        switch (type)
         {
             case enemyType.Basic:
-                if (transform.position.y < 0) ChangeSprite(basic_down);
-                else if (transform.position.y > 0) ChangeSprite(basic_up);
-                if (transform.position.x < 0) FlipObject();
+                if (newpos.x < currentpos.x) ChangeSprite(basic_left);
+                else if (newpos.x > currentpos.x) ChangeSprite(sprite1);
+                else if (pathIfollow.pathway[currentpoint + 1].y < pathIfollow.pathway[currentpoint].y) ChangeSprite(basic_down);
+                else if (pathIfollow.pathway[currentpoint + 1].y > pathIfollow.pathway[currentpoint].y) ChangeSprite(basic_up);
+
                 break;
             case enemyType.Fast:
+                if (newpos.x < currentpos.x) ChangeSprite(fast_left);
+                else if (newpos.x > currentpos.x) ChangeSprite(sprite2);
+                else if (newpos.y < currentpos.y) ChangeSprite(fast_down);
+                else if (newpos.y > currentpos.y) ChangeSprite(fast_up);
+              
                 break;
             case enemyType.Tank:
                 break;
