@@ -25,7 +25,7 @@ public class Plot : MonoBehaviour {
     private void OnMouseDown() {
         if (tower != null)
         {
-            Debug.Log(tower.name);
+            TowerMenu.TOWERMENU.SetUpMenu(tower);
             return;
         }
 
