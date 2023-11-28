@@ -3,7 +3,19 @@ guid: 354331a1ce9ba12469353225d08c0b03
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - sprite1: {fileID: 21300000, guid: d1bfddb1c950e2e46861c392a8fe7ff8, type: 3}
+  - basic_up: {fileID: 21300000, guid: a16eb2e1ab36e254eb1b4f1352eff235, type: 3}
+  - basic_down: {fileID: 21300000, guid: 4097c6b957683294ba15e501c5bdc573, type: 3}
+  - basic_left: {fileID: 21300000, guid: d80ef0e8625c0fb42ad1dfcaca54849c, type: 3}
+  - sprite2: {fileID: 21300000, guid: d1176f3aded253849b62bc630328ec12, type: 3}
+  - fast_up: {fileID: 21300000, guid: d8c22a6938157bf4f9e3e5525477d02a, type: 3}
+  - fast_down: {fileID: 21300000, guid: aca4fab55111f09429a6ea4ddbc37e24, type: 3}
+  - fast_left: {fileID: 21300000, guid: 5870f4edbd30c4f41ae440a836db6e95, type: 3}
+  - sprite3: {fileID: 21300000, guid: 2672476a0524bee4ebe3e1c6ffcb9cd6, type: 3}
+  - big_up: {fileID: 21300000, guid: b3791bdbe3934b842b24895ab94b5464, type: 3}
+  - big_down: {fileID: 21300000, guid: 0ff96d6552421554c95fb98f8388e7dd, type: 3}
+  - big_left: {fileID: 21300000, guid: 661c2a8d9e8ede34eaa0b3567c8a324e, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

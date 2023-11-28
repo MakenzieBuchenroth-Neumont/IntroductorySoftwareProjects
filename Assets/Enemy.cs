@@ -53,7 +53,7 @@ public class Enemy : MonoBehaviour
                 max_hit_points = hit_points;
                 ChangeSprite(sprite3);
                 damage = 3;
-                speed = 0.25f;
+                speed = 0.75f;
                 break;
             case enemyType.Fast:
                 hit_points = 3;
@@ -65,6 +65,7 @@ public class Enemy : MonoBehaviour
         }
 
         transform.position = pathIfollow.pathway[currentpoint];
+        UpdateSprite();
     }
 
     // Update is called once per frame
@@ -124,13 +125,6 @@ public class Enemy : MonoBehaviour
     { 
         GetComponent<SpriteRenderer>().sprite = newSprite;
     }
-    private void FlipObject()
-    {
-        Vector3 currentScale = gameObject.transform.localScale;
-        currentScale.x *= -1;
-        gameObject.transform.localScale = currentScale;
-        flipped = !flipped;
-    }
 public void UpdateSprite()
     {
         Vector3 newpos = pathIfollow.pathway[currentpoint + 1];
@@ -153,6 +147,10 @@ public void UpdateSprite()
               
                 break;
             case enemyType.Tank:
+                if (newpos.x < currentpos.x) ChangeSprite(big_left);
+                else if (newpos.x > currentpos.x) ChangeSprite(sprite3);
+                else if (newpos.y < currentpos.y) ChangeSprite(big_down);
+                else if (newpos.y > currentpos.y) ChangeSprite(big_up);
                 break;
         }
     }
