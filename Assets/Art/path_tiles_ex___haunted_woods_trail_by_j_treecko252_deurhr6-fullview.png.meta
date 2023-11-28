@@ -1,0 +1,4892 @@
+fileFormatVersion: 2
+guid: 845523ed01b40634db48567bf6bafac3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f43f1be9aebbbc40b314aee20d1209c
+      internalID: -1880018837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cdb30cab617174f94816cc1e8a5399
+      internalID: 706321195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1305a656d92a8744f95ad582649914a1
+      internalID: 489990581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794352ee1013c3e44b2cab38ea65722a
+      internalID: 361263152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c7bfc29ee61564986f97a8d9518922
+      internalID: 547954483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d65b9bc84b058c4a8cf626397cb54b6
+      internalID: 2085607805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e3c02f80234024ab82123d1f8c8d5a
+      internalID: -1785327126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d76d2e4e1b5edb40b42bd3e21ce22dc
+      internalID: -1563221098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29ebf2367635a8458a345d42639d038
+      internalID: -179277777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30694a7033f44943b03fe235674f3b4
+      internalID: -770938794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a472910853e4868419397084680736e3
+      internalID: 1047285588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6aa9fd765d8664090106832050eee0
+      internalID: -531790567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055270f9b1be6fe41bfd595eb72361bd
+      internalID: 1283966173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576a3f872caa5074c87b9f109528b8b4
+      internalID: -92454778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e22cf4d5e4b2b4f9c9fd7a70dfbb97
+      internalID: 39455441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 800
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5806a91009a81ca40a457d887fb7f7f3
+      internalID: -967279890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aef9092813d0a4994b4f949ac6b9f2
+      internalID: -1808959166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804565ab1e734d449afa94bb72bb9ac4
+      internalID: -2014163445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05985b34ee7a4a74d98bb42653ba1c43
+      internalID: -1980908918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae3be2dc886ec9488c700072b2bb60a
+      internalID: 188246867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b3f5280e7176346bb62c5623b03f9f
+      internalID: 976056838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759b98bd6448fe047a919c338cafe476
+      internalID: 370431454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc9371a552870c4abb6ca37b534e05f
+      internalID: -682409535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ce0f741feb0e74aa252a323b6971a4
+      internalID: -513653516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c71eb83246c6b4088cc7807f9f50da
+      internalID: 2011804735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a52ebda46ec1a94880e12a90ea2c680
+      internalID: -1677599901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c54d6a9bd94cd4d857b42d6c2fbc43
+      internalID: -1717937719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25daf97659939e447a25a719c6c0d0ce
+      internalID: -35668760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88158b4795feb1a46bb6a034ba2772fd
+      internalID: 1221733732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b464bc7e31d25294b96e4467051bc218
+      internalID: -1367330533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e2e1929bde8274e838b367d155a565
+      internalID: -1926571131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 736
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950ae6a8164326a4d980be82958fb8f0
+      internalID: 970133804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fee3bb5fe458447895c1632f02fb67
+      internalID: -481450721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16205d12b69bf6144a5edffa9c70133d
+      internalID: 1046040107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5324e8c81cd6ba14dbf0b1da3d5b46a3
+      internalID: 2094589306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2a4ae3eaccca843a889dd67e10e72a
+      internalID: 579114314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1515827ffb65dfd438383b23cd2c7db3
+      internalID: 644189625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64b5727ea2b4544d93fea43c47dad3c
+      internalID: -2135788799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dc115adff8f7d4f93ea7009cb7e180
+      internalID: 1930690124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97ec45c5ce38db40a36cdb105b49c9e
+      internalID: -1827580006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd2a971accf6584b8943c87017716d2
+      internalID: -1414738918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b13297893736d41983eed879a909d3
+      internalID: -2093171109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95879f27d787c964e87d1ab2dfcd00ec
+      internalID: 1709316963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65bf71aad66b7f4797a3e9c8352273e
+      internalID: -1641445546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10784ea7d8aed8e479fad3655a1737e3
+      internalID: -1463306610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b54fba7248e5ef4ea800f4d343115eb
+      internalID: 2066962322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a724e4c45550fac49b0277faaf6bf843
+      internalID: 653045472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1409e64b9852fbf448efe8bcdd8668c6
+      internalID: 652322029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cf23da76396c248a83da8093967e70
+      internalID: 1803721447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fea1f4b43fe8e47b8ccedc7200be38
+      internalID: -1322137705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eb859f38f9ba34294b0ddc084a8bce
+      internalID: 211953318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335604c7f6c6fe64683530490df19ced
+      internalID: -751306282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a805c099dd7b849b9f58b4e06bd8a2
+      internalID: -1180748426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50856dd26c8f00b45bf0a4b025223a08
+      internalID: -1124782396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b83108e6db7a4469ecdce4cfa89858
+      internalID: -320298318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a3efb03a24d73438704f4d46f7b60a
+      internalID: -883714302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045156306db466c4eba45726ea45a967
+      internalID: -1451189746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32916afd2d11704cb5894a8717aa829
+      internalID: 381866927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cef27ce12b7d4469dc18d5b4663d6c
+      internalID: -1066826770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43482cf1b0eef6649b7bef56a5933447
+      internalID: 2100681032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d0bc42fa3b131478060f43770a3db2
+      internalID: 1300703532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1d64b1a346e36409e295d57753a5fc
+      internalID: 973862756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb231638ee55baa4c8af84e48d9319f4
+      internalID: 1484865062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d435be7b8d0e50438aa7a9a77f60abf
+      internalID: 123517236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ed6ac03f31d3f4c917ff95bdc4e3be
+      internalID: -542746946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4631f0417280bf641aa48bf4128f7812
+      internalID: -1908379361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617dc75a017c4b840a2030e2986a8434
+      internalID: -445983337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c001f2eb8bc459e45b1be2c6a4c10aad
+      internalID: 143015463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04c6e6929795b84ca2d3552622c3bf7
+      internalID: 510096490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f586bcd4ffa3a14591e48dcf47a62f8
+      internalID: -1033376562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9229859f3a447ca45abc9d0c616e11de
+      internalID: 422654665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f902964ebe3907349ba541ea5370f664
+      internalID: 501227928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1121d35e9094b3744a85505969d1f8a6
+      internalID: 1477570550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f6a562e3cf9fb41bb48976baba3142
+      internalID: 758624586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79161cd77c699a946b99648fc7d5364c
+      internalID: -938548034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a871780aca37f044bf659ce99b211e1
+      internalID: 1570435475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aff6ab151e08c740bb146b137eb761c
+      internalID: -12442710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4aeb08d85fa4247937539d4fb57b80
+      internalID: -121192419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a474040b4556a145a9cd1d30303cf97
+      internalID: 609402820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0416bd5d817a744b8493755966bb42
+      internalID: -1517533956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55a4bef2c2db764e9684d12e5b3f8a4
+      internalID: -218889997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8647cb7c056cf84caf64e5cc8c594cd
+      internalID: -2035364123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfa7ee575e3b7a469c9ea70d517902d
+      internalID: 1591526009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3701fa0a1148d4e856bbfcb1c7c3bd
+      internalID: -551888223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80747d297fa9ee4a88eb2a73151e4cb
+      internalID: 279462946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7545a3340fb864094d2c9adb41bd45
+      internalID: 1562156356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a06f766d77553439cd6912e97856b0
+      internalID: 1350425669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec10fa7a7b724544e820aedf6a52d96d
+      internalID: -1141783615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2eb97ae81f5d64caf8b45409d64d1e
+      internalID: -584858136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_89
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9accae10033417742a21c821113cde16
+      internalID: -1537486474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db08ae8d85e709c49b1679c51055a0a6
+      internalID: 1306851557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febf6d594a55df744ad2a153865e973b
+      internalID: 1104920219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a95d7442eb15740980a28c91ab1462
+      internalID: 1892227076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_93
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e723161ab86917a46af603b67ceffce7
+      internalID: 157174564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a25721c949e502468c13272ba608ee0
+      internalID: 1069763172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_95
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d2de1cc4445e04eb1827bc67da5bb9
+      internalID: 1558102992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a753cc105d9ffec448f997e6f4bdda1d
+      internalID: 1992394108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f224b57280312d479f7637f807f8786
+      internalID: -1068022981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5bf3803b0fb7a4a9cc2dd065cc6a34
+      internalID: 1511133600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3a23b5425ecaa46bb1268d03db8519
+      internalID: -1986741975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5270692450c2740a95572fadafd030
+      internalID: -1854098194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42893b3a0dca6446981086ec05d5c37
+      internalID: -972563036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08d20317a67a4948a285dd36150b8ec
+      internalID: -564063206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe2addf3a1dee940ac57afbc0b005b0
+      internalID: 1178094379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890327bd1258de94485c48c7bd8b01e5
+      internalID: -151055978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_105
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe9ad8927028d247a040358ba6e2b5c
+      internalID: -157757239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677b2d70382c7754289416f9f3e188c8
+      internalID: 1067017248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248ee9a38e70acc429cda70b97b9e1bb
+      internalID: 1355990977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c35cf25690f3d340b265cbca7a0b9fc
+      internalID: 458086328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_109
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79d9246111c244489b8e488ef0ff210
+      internalID: -917828525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_110
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a991ecdf33287d84ea49669b74c2979d
+      internalID: -815104864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_111
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e0cc5afd62efa4cbfc6a4517728c6a
+      internalID: 1798910228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2253f4f377864d408e439710532d04f
+      internalID: 389858842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9111d0db60bdf643b14cf0d376cb695
+      internalID: -1327356997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adf4a4f75e976a4da61f197e455913d
+      internalID: -101977048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3259e1ee19c687d488e285d265e82a65
+      internalID: -305674488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69b8d72311399b4a9feebd148a8bd83
+      internalID: -1802420097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b1b93b98f986248ac10815c287e9ff
+      internalID: -1864148330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17900d0147440a643b14a4b24eed9bf7
+      internalID: 236372266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fd77f4e0d8f88478f57f23c7980316
+      internalID: -1684947538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56d8daaeef71ed46a17a6a43e97267e
+      internalID: 527726901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a632873a59d8341959510de75b94fc
+      internalID: -1070488549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac8a0c2509787b418d1bd13c0e04bdd
+      internalID: 1396235573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0144d175fc67b384e87a1181f47bbe9c
+      internalID: -581221578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b905c71fa7124443b3bc4a234438ae8
+      internalID: -590542487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_125
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136510190cd16b24f94372ee3e1826ca
+      internalID: -1198209363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09993be1e60ce4e4d931b582ac895cb2
+      internalID: 915653685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_127
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fe9babcecfddb4ea7f46f53c9ca8df
+      internalID: 1817351295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe939b35b97863a4c9aeb991db34ff2c
+      internalID: 1882441417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bafb9423c17134da96001581443085
+      internalID: 975293481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aa87bb3006b2c40993bb75bb641a4e
+      internalID: -982329063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b77a8842d92594291279164215db48
+      internalID: -1321819319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90f09fb90b79454dbe1821fefc801de
+      internalID: 492345924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e402cfa1866bc5f4c9bcae63569feff8
+      internalID: -675014729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decc62e9f10abae4889d5fc0289021b2
+      internalID: 1096733084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_135
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de382955b865ca409d9d9dde76d4624
+      internalID: 1015093645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84b0007a3f50e44db7dce87c4ef4e5c
+      internalID: -1720581395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_137
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc93b320c16cc3d4ca6790f6f4ad956f
+      internalID: -177828740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_138
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45026ef68aeea96488fda255d7442b73
+      internalID: 110204313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_139
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c0590270ba24b48a7da78eb75093d9
+      internalID: -1786521676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_140
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fbbe587380207419235cb39c1b3d16
+      internalID: 1079854920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_141
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b024c2f8489e2d64b9c46fc8fbc6cd8a
+      internalID: 1286001851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_142
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bda7c220147bd4993fa661a0c8f5e8
+      internalID: -1079150417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_143
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b2d096d7cd9864d8c27839d79d4b10
+      internalID: -1956464933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00f90734d761b7488b3675d8f35d72f
+      internalID: 308938323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb2f531b46f3bc49afca65fc944370d
+      internalID: 617509470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978fb038a5dc7224e8619bdcd1556477
+      internalID: -1347635644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f3d66da104e854db4eb7cdf1bbc35f
+      internalID: 1422930305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7746991e6f2f4a14281a152849be3482
+      internalID: -1192365941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_149
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3cf2bfe0db9b04590b96909cbcdd56
+      internalID: -645391115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faa09361e04f074796d71578f29c77e
+      internalID: 1864707207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_151
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e64e951174cc994781646c66d9844ba
+      internalID: 668674419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df9a5ce9fea94b44a2ea04a67614c37
+      internalID: 201466046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_153
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bebbc0443b53e643a209be15e6a0db7
+      internalID: -627519165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_154
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12b9a700dee3324497d555940c3dc5c
+      internalID: 1631226428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_155
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ca63f2c3fc3b74f9f2d22a69891e9c
+      internalID: 387151231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbd33ab7ccb8f64c9aeb2790ca749fc
+      internalID: -148069665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_157
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a7a69a0d697844ba64a9577d1d97ac
+      internalID: -1162396502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_158
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c2fb03bf6a4d64b9955292c297c393
+      internalID: 783126375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_159
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e241d1772388e5c439a0134c01910134
+      internalID: 691609675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf6a674731e02343aad1b51c6279676
+      internalID: 410051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_161
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38cc086c35201945ad95240b2fdcce2
+      internalID: 798675313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_162
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eff618be76588a4bab423d1cc2f00db
+      internalID: 1933016069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b7ccf16f0b2a440add339d1515d5c2
+      internalID: -958793980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_164
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9dc12804b234244ad6ca91494194b0
+      internalID: 124883745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_165
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab25d1d2a6ca14e49892c7263252eef4
+      internalID: 1093329246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_166
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6aaae8c6da14a3439e144e637077908
+      internalID: -2041619661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_167
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9121b83e6cddad4bae3b1cdb1cf9d1a
+      internalID: -1042202528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d7e28499658e94d89fb8684aa62398
+      internalID: -1959089484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_169
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8eb09c140ceef40b88865d60b95b3c
+      internalID: -598098420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_170
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60782963043b1f54b979089257e825ec
+      internalID: -1674281284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_171
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73700a2192bccb149a07fbec2e072a57
+      internalID: 300326485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_172
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fe7b4cf3c9f054db0630beb6815f03
+      internalID: 855352076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_173
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd3cde811dd1a540804a72ef53ea67e
+      internalID: 975391318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_174
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e985393ea21dc4b8f8f84a53d815ae
+      internalID: -2093911197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_175
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f19dcf9dddcb94da5ef32c6709b888
+      internalID: 1800484354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f2e10c2e600334998facd1793ec4ae
+      internalID: -922372486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_177
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31d39d15ae24dc4bbdfd43d64667815
+      internalID: 136151722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_178
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4724e383de4b6d43a28e985525a93d8
+      internalID: 2086158136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_179
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7bbbb6045d4cc4897e81a51168e43c
+      internalID: -699932021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_180
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f184bccbfb3d804da7c082d7a152984
+      internalID: 1369692251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_181
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abf353e8eeda1f4eaad9eb0ee2a260f
+      internalID: 1623855066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1fb38e5d430014db6f0e1925d12c20
+      internalID: 121787698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_183
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a9afa7aa7f79b43a72550dc6411b32
+      internalID: -562569132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_184
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9867c3053875dc7458671ed01c6548f7
+      internalID: -1294992386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_185
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dbe8666f853144287ad7ae0fea189e
+      internalID: -1054706422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_186
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e665f859f9e5b3c4bafafab2801c3c61
+      internalID: 89343182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_187
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ba9f5e6f2d2944a8717ea76671c481
+      internalID: -1266061001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_188
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdf96c639468b04cb5314185bd2c35b
+      internalID: 2146706302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_189
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79d23b0f720e364cbefbab393521a07
+      internalID: -1703473803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_190
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3c49065f61a144d96270d5ce53724f
+      internalID: 883673204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_191
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8f5153d7efb2e4ba9ff011ab7748df
+      internalID: -651868806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0962d47de6a1f43ae3755f05d7babe
+      internalID: -1829699461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_193
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b47fb4fece204e40b2b183473f9b0e2
+      internalID: -1899324489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_194
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c34e637a502c6d409863a45c6ece601
+      internalID: -248518090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_195
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ce797dac0be9f4d9a53d529b5af4a6
+      internalID: -425140043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_196
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e830941f4d99ed4d84e1121083b8c29
+      internalID: 1429523531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_197
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f857e7d347957ae498326ce4b7391188
+      internalID: 1200952353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_198
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d775a175c37f8c74fa23f9bdf5e5b2f4
+      internalID: -1159818647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_199
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677fe7de27d6a1740b4d8a919e69a305
+      internalID: -1485225643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652cea5ee083520498bec688e3e17370
+      internalID: -504952965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_201
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e058dc4deace6f44daac9d3ab75e0610
+      internalID: 1616233834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_202
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bba5612aed71974b9acda259601976a
+      internalID: -668162159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_203
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50337ebba6996ca428b8157c2c3527ea
+      internalID: 1016396939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_204
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9bd75b156019d41948e01667484d90
+      internalID: -175155798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_205
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad9dff44f7b75d4989a9c5085667f38
+      internalID: 1815807309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_206
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d53b39029069ea4abbb8ffaad275112
+      internalID: -2115266526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_207
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90660ee1ab091914cbe2649e9db6f5b0
+      internalID: 1919735658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad541d12b0bc03645af8bca079929f77
+      internalID: 2107906167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_209
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7771718074f496479cc5e4c054760a4
+      internalID: -1083377708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_210
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b605e46f8edff44a9ecd0bb0b446905
+      internalID: -1381810912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_211
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9904645d53fedc44981d465f80d9066
+      internalID: -1341110016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_212
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0bf25d2c677d84987d91aadda85742
+      internalID: -567058101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_213
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408ce27daca1a244f8066ed056d72e9f
+      internalID: 830764720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_214
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e96228baf0339442b6ead30e590e0df
+      internalID: -248646210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_215
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acbe93384d64944c9251895dcdd90c0
+      internalID: -138476281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_0: -1880018837
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_1: 706321195
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_10: 1047285588
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_100: -1854098194
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_101: -972563036
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_102: -564063206
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_103: 1178094379
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_104: -151055978
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_105: -157757239
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_106: 1067017248
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_107: 1355990977
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_108: 458086328
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_109: -917828525
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_11: -531790567
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_110: -815104864
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_111: 1798910228
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_112: 389858842
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_113: -1327356997
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_114: -101977048
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_115: -305674488
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_116: -1802420097
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_117: -1864148330
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_118: 236372266
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_119: -1684947538
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_12: 1283966173
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_120: 527726901
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_121: -1070488549
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_122: 1396235573
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_123: -581221578
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_124: -590542487
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_125: -1198209363
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_126: 915653685
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_127: 1817351295
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_128: 1882441417
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_129: 975293481
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_13: -92454778
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_130: -982329063
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_131: -1321819319
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_132: 492345924
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_133: -675014729
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_134: 1096733084
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_135: 1015093645
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_136: -1720581395
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_137: -177828740
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_138: 110204313
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_139: -1786521676
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_14: 39455441
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_140: 1079854920
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_141: 1286001851
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_142: -1079150417
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_143: -1956464933
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_144: 308938323
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_145: 617509470
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_146: -1347635644
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_147: 1422930305
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_148: -1192365941
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_149: -645391115
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_15: -967279890
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_150: 1864707207
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_151: 668674419
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_152: 201466046
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_153: -627519165
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_154: 1631226428
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_155: 387151231
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_156: -148069665
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_157: -1162396502
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_158: 783126375
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_159: 691609675
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_16: -1808959166
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_160: 410051
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_161: 798675313
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_162: 1933016069
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_163: -958793980
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_164: 124883745
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_165: 1093329246
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_166: -2041619661
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_167: -1042202528
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_168: -1959089484
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_169: -598098420
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_17: -2014163445
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_170: -1674281284
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_171: 300326485
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_172: 855352076
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_173: 975391318
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_174: -2093911197
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_175: 1800484354
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_176: -922372486
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_177: 136151722
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_178: 2086158136
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_179: -699932021
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_18: -1980908918
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_180: 1369692251
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_181: 1623855066
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_182: 121787698
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_183: -562569132
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_184: -1294992386
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_185: -1054706422
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_186: 89343182
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_187: -1266061001
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_188: 2146706302
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_189: -1703473803
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_19: 188246867
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_190: 883673204
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_191: -651868806
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_192: -1829699461
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_193: -1899324489
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_194: -248518090
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_195: -425140043
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_196: 1429523531
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_197: 1200952353
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_198: -1159818647
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_199: -1485225643
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_2: 489990581
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_20: 976056838
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_200: -504952965
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_201: 1616233834
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_202: -668162159
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_203: 1016396939
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_204: -175155798
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_205: 1815807309
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_206: -2115266526
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_207: 1919735658
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_208: 2107906167
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_209: -1083377708
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_21: 370431454
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_210: -1381810912
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_211: -1341110016
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_212: -567058101
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_213: 830764720
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_214: -248646210
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_215: -138476281
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_22: -682409535
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_23: -513653516
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_24: 2011804735
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_25: -1677599901
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_26: -1717937719
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_27: -35668760
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_28: 1221733732
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_29: -1367330533
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_3: 361263152
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_30: -1926571131
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_31: 970133804
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_32: -481450721
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_33: 1046040107
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_34: 2094589306
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_35: 579114314
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_36: 644189625
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_37: -2135788799
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_38: 1930690124
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_39: -1827580006
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_4: 547954483
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_40: -1414738918
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_41: -2093171109
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_42: 1709316963
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_43: -1641445546
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_44: -1463306610
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_45: 2066962322
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_46: 653045472
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_47: 652322029
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_48: 1803721447
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_49: -1322137705
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_5: 2085607805
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_50: 211953318
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_51: -751306282
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_52: -1180748426
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_53: -1124782396
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_54: -320298318
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_55: -883714302
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_56: -1451189746
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_57: 381866927
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_58: -1066826770
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_59: 2100681032
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_6: -1785327126
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_60: 1300703532
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_61: 973862756
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_62: 1484865062
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_63: 123517236
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_64: -542746946
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_65: -1908379361
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_66: -445983337
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_67: 143015463
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_68: 510096490
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_69: -1033376562
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_7: -1563221098
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_70: 422654665
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_71: 501227928
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_72: 1477570550
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_73: 758624586
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_74: -938548034
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_75: 1570435475
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_76: -12442710
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_77: -121192419
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_78: 609402820
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_79: -1517533956
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_8: -179277777
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_80: -218889997
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_81: -2035364123
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_82: 1591526009
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_83: -551888223
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_84: 279462946
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_85: 1562156356
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_86: 1350425669
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_87: -1141783615
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_88: -584858136
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_89: -1537486474
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_9: -770938794
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_90: 1306851557
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_91: 1104920219
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_92: 1892227076
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_93: 157174564
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_94: 1069763172
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_95: 1558102992
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_96: 1992394108
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_97: -1068022981
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_98: 1511133600
+      path_tiles_ex___haunted_woods_trail_by_j_treecko252_deurhr6-fullview_99: -1986741975
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
