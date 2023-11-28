@@ -11,6 +11,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private List<Wave> waves;
     private List<Batch> usedBatches = new List<Batch>();
 
+    
+
     private List<GameObject> enemies = new List<GameObject>();
 
     public void StartWave()
@@ -19,6 +21,9 @@ public class EnemySpawner : MonoBehaviour
         {
             StartCoroutine(BatchSpawner());
             currentWave++;
+        } else
+        {
+            LevelManager.main.WinGame();
         }
     }
 

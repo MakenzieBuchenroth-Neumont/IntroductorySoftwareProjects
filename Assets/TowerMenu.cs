@@ -9,11 +9,13 @@ public class TowerMenu : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI pokemonName;
     [SerializeField] TextMeshProUGUI xpAmount;
+
+    [SerializeField] StatusEffect test;
     [SerializeField] Animator anim;
 
     private GameObject tower;
 
-    private bool openMenu;
+    private bool openMenu = false;
 
     // Start is called before the first frame update
     void Start()
