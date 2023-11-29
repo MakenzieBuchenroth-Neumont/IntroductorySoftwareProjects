@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - bad_guy
+  - bullet
   layers:
   - Default
   - TransparentFX
@@ -43,4 +45,10 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Tower
+    uniqueID: 2852678787
+    locked: 0
+  - name: UI
+    uniqueID: 2956385709
     locked: 0
