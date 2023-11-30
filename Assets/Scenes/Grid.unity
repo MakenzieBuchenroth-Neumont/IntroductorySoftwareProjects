@@ -245,6 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currency: 0
+  exp: 0
 --- !u!4 &8230943
 Transform:
   m_ObjectHideFlags: 0
