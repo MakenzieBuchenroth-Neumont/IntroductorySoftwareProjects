@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-<<<<<<< Updated upstream:Assets/Scripts/Managers/BuildManager.cs
 <<<<<<< Updated upstream:Assets/Scripts/Level Manager/BuildManager.cs
 public class BuildManager : MonoBehaviour
 {
@@ -34,8 +33,6 @@ public class BuildManager : MonoBehaviour
     {
         
 =======
-=======
->>>>>>> Stashed changes:Assets/Scripts/Level Manager/BuildManager.cs
 public class BuildManager : MonoBehaviour {
     public static BuildManager main;
 
@@ -54,9 +51,6 @@ public class BuildManager : MonoBehaviour {
 
     public void setSelectedTower(int _selectedTower) {
         selectedTower = _selectedTower;
-<<<<<<< Updated upstream:Assets/Scripts/Managers/BuildManager.cs
 >>>>>>> Stashed changes:Assets/Scripts/Managers/BuildManager.cs
-=======
->>>>>>> Stashed changes:Assets/Scripts/Level Manager/BuildManager.cs
     }
 }
