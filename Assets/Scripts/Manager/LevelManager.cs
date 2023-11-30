@@ -13,6 +13,7 @@ public class LevelManager : MonoBehaviour {
     }
 
     private void Start() {
+        main = this;
         currency = 1000;
         exp = 0;
     }

@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 8230943}
   - component: {fileID: 8230942}
   - component: {fileID: 8230941}
+  - component: {fileID: 8230944}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -225,7 +226,7 @@ MonoBehaviour:
   towers:
   - name: Bulbasaur
     cost: 50
-    prefab: {fileID: 1986569252927529184, guid: 1d3ddc409517f754589bad447cf07889, type: 3}
+    prefab: {fileID: 3485797244805615070, guid: 2c30e56668b2460428edf2a37da49e8c, type: 3}
   - name: Charmander
     cost: 50
     prefab: {fileID: 6594571902950236611, guid: 90fba822d9af0a144b13024ee5d982b6, type: 3}
@@ -261,6 +262,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8230944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8230940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85bb76b7bc86e2a4b9cb922e44f43874, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &18609317
 GameObject:
   m_ObjectHideFlags: 0
@@ -6858,13 +6871,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5931753f04cb4794cac5701ad6e49f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paths:
-  - {fileID: 282068048}
-  autostart: 0
-  currentWave: 0
-  waves:
-  - {fileID: 11400000, guid: 93b3dd4af8ff06d4ebd7844e3108356a, type: 2}
-  - {fileID: 11400000, guid: 9b1ae08fae6b1a046bca0e961e600fa0, type: 2}
 --- !u!4 &401643077
 Transform:
   m_ObjectHideFlags: 0
