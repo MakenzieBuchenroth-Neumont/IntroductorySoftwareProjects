@@ -6,6 +6,7 @@ public class LevelManager : MonoBehaviour {
     public static LevelManager main;
 
     public int currency;
+    public int exp;
 
     private void Awake() {
         main = this;
@@ -13,6 +14,7 @@ public class LevelManager : MonoBehaviour {
 
     private void Start() {
         currency = 1000;
+        exp = 0;
     }
 
     public void increaseCurrency(int amount) {
@@ -26,6 +28,26 @@ public class LevelManager : MonoBehaviour {
             return true;
         }
         else {
+            Debug.Log("Can't afford");
+            return false;
+        }
+    }
+
+    public void increaseExp(int amount)
+    {
+        exp += amount;
+    }
+
+    public bool spendExp(int amount)
+    {
+        if (amount <= exp)
+        {
+            // BUY
+            exp -= amount;
+            return true;
+        }
+        else
+        {
             Debug.Log("Can't afford");
             return false;
         }

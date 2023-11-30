@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
-using UnityEngine.UI;
+using UnityEngine;
 
-public class TowerTargeting : MonoBehaviour
+public class Tower : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform towerRotationPoint;
@@ -12,38 +11,24 @@ public class TowerTargeting : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firingPoint;
     [SerializeField] private SpriteChange spriteChange; // Make sure to assign this in the Inspector
-    [SerializeField] private GameObject upgradeUI;
-    [SerializeField] private Button upgradeButton;
 
     [Header("Attributes")]
     [SerializeField] private float targetingRange = 2.0f;
     [SerializeField] private float attackRate = 1.0f; // 1 shot per second
-    [SerializeField] private int baseUpgradeCost = 100;
-    [SerializeField] private int baseEXPUpgradeCost = 100;
-
-    private float targetingRangeBase;
-    private float attackRateBase;
 
     private Transform target;
     private float attackTimer = 0.0f;
-
-    private int level = 1;
 
     public float Angle;
 
     // Start is called before the first frame update
     void Start()
     {
-        targetingRangeBase = targetingRange;
-        attackRateBase = attackRate;
-
         FindTarget();
         if (spriteChange == null)
         {
             Debug.LogError("SpriteChange component is not assigned.");
         }
-
-        upgradeButton.onClick.AddListener(Upgrade);
     }
 
     // Update is called once per frame
@@ -104,64 +89,5 @@ public class TowerTargeting : MonoBehaviour
     {
         Angle = Mathf.Atan2(target.position.y - transform.position.y, target.position.x - transform.position.x) * Mathf.Rad2Deg;
         Angle = (Angle - 360) % 360; // Normalize angle to be within 0-360 degrees
-    }
-
-    public void OpenUpgradeUI()
-    {
-        upgradeUI.SetActive(true);
-    }
-
-    public void CloseUpgradeUI()
-    {
-        upgradeUI.SetActive(false);
-        UIManager.main.SetHoveringState(false);
-    }
-
-    public void Upgrade()
-    {
-        if (CalculateCost() > LevelManager.main.currency && CalculateEXPCost() > LevelManager.main.exp)
-        {
-
-            LevelManager.main.spendCurrency(CalculateCost());
-
-            level++;
-
-            targetingRange = CalculateRange();
-            attackRate = CalculateAttackRate();
-
-            CloseUpgradeUI();
-            Debug.Log("Upgraded to level " + level);
-            Debug.Log("New range: " + targetingRange);
-            Debug.Log("New attack rate: " + attackRate);
-            Debug.Log("New cost: " + CalculateCost());
-        }
-        else if (CalculateCost() > LevelManager.main.currency)
-        {
-            Debug.Log("Not enough money to upgrade.");
-        }
-        else if (CalculateEXPCost() > LevelManager.main.exp)
-        {
-            Debug.Log("Not enough EXP to upgrade.");
-        }
-    }
-
-    private int CalculateCost()
-    {
-        return Mathf.RoundToInt(baseUpgradeCost * Mathf.Pow(level, 0.8f));
-    }
-
-    private int CalculateEXPCost()
-    {
-        return Mathf.RoundToInt(baseEXPUpgradeCost * Mathf.Pow(level, 0.8f));
-    }
-
-    private float CalculateRange()
-    {
-        return targetingRangeBase * Mathf.Pow(level, 0.4f);
-    }
-
-    private float CalculateAttackRate()
-    {
-        return attackRateBase * Mathf.Pow(level, 0.6f);
     }
 }
