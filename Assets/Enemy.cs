@@ -9,8 +9,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] float speed = 0.1f;
     [SerializeField] int max_hit_points = 0;
     [SerializeField] int damage = 0;
+    [SerializeField] float xp_amount = 0.0f;
+    [SerializeField] int coin_amount = 0;
     [SerializeField] enemyType type;
-
+    //Enemy Types
     public Sprite sprite1;
     [SerializeField] private Sprite basic_up;
     [SerializeField] private Sprite basic_down;
@@ -20,11 +22,17 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Sprite fast_up;
     [SerializeField] private Sprite fast_down;
     [SerializeField] private Sprite fast_left;
+
     public Sprite sprite3;
     [SerializeField] private Sprite big_up;
     [SerializeField] private Sprite big_down;
     [SerializeField] private Sprite big_left;
 
+    public Sprite sprite4;
+    [SerializeField] private Sprite medic_up;
+    [SerializeField] private Sprite medic_down;
+    [SerializeField] private Sprite medic_left;
+    [SerializeField] private Sprite medic_heal;
     // this is the variables used in walking across the line
     private Path pathIfollow;
     private EnemySpawner spawner;
@@ -32,10 +40,11 @@ public class Enemy : MonoBehaviour
     public int currentpoint = 0;
     public float currentpathprogress = 0;
 
-    public enum enemyType { Basic, Tank, Fast }
+    public enum enemyType { Basic, Tank, Fast, Medic }
     public enemyType GetEnemyType() { return type; }
     public void SetEnemyType(enemyType ee) { type = ee; }
     public bool flipped = true;
+    public int[] status_effects;
 
     void Start()
     {
@@ -46,6 +55,8 @@ public class Enemy : MonoBehaviour
                 max_hit_points = hit_points;
                 damage = 1;
                 speed = 1.0f;
+                xp_amount = 15.0f;
+                coin_amount = 5;
                 ChangeSprite(sprite1);
                 break;
             case enemyType.Tank:
@@ -54,13 +65,25 @@ public class Enemy : MonoBehaviour
                 ChangeSprite(sprite3);
                 damage = 3;
                 speed = 0.75f;
+                xp_amount = 20.0f;
+                coin_amount = 12;
                 break;
             case enemyType.Fast:
                 hit_points = 3;
                 max_hit_points = hit_points;
                 damage = 2;
                 speed = 2.0f;
+                xp_amount = 15.0f;
+                coin_amount = 10;
                 ChangeSprite(sprite2);
+                break;
+            case enemyType.Medic: 
+                hit_points = 10;
+                max_hit_points = hit_points;
+                damage = 1;
+                speed = 1.5f;
+                xp_amount = 10.0f;
+                coin_amount = 10;
                 break;
         }
 
@@ -151,6 +174,13 @@ public void UpdateSprite()
                 else if (newpos.x > currentpos.x) ChangeSprite(sprite3);
                 else if (newpos.y < currentpos.y) ChangeSprite(big_down);
                 else if (newpos.y > currentpos.y) ChangeSprite(big_up);
+                break;
+            case enemyType.Medic:
+                if (newpos.x < currentpos.x) ChangeSprite(medic_left);
+                else if (newpos.x > currentpos.x) ChangeSprite(sprite4);
+                else if (newpos.y < currentpos.y) ChangeSprite(medic_down);
+                else if (newpos.y > currentpos.y) ChangeSprite(medic_up);
+                if (this.speed == 0) ChangeSprite(medic_heal);
                 break;
         }
     }
