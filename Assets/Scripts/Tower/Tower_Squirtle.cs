@@ -1,32 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< Updated upstream
-=======
 using static UnityEngine.GraphicsBuffer;
->>>>>>> Stashed changes
 
 public class Tower_Squirtle : MonoBehaviour
 {
     [Header("References")]
-<<<<<<< Updated upstream
-    [SerializeField] private LayerMask enemyMask;
-
-    [Header("Attributes")]
-    [SerializeField] private float targetingRange = 2.0f;
-    [SerializeField] private float attackRate = 1.0f; // attack per second
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-=======
     [SerializeField] private Transform towerRotationPoint;
     [SerializeField] private LayerMask enemyMask;
     [SerializeField] private GameObject bulletPrefab;
@@ -109,6 +88,5 @@ public class Tower_Squirtle : MonoBehaviour
     {
         Angle = Mathf.Atan2(target.position.y - transform.position.y, target.position.x - transform.position.x) * Mathf.Rad2Deg;
         Angle = (Angle - 360) % 360; // Normalize angle to be within 0-360 degrees
->>>>>>> Stashed changes
     }
 }
