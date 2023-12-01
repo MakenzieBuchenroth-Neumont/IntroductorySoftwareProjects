@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5ed32b1dd0952740acff367c060210d, type: 3}
-  m_Name: w1b2
+  m_Name: medic batch
   m_EditorClassIdentifier: 
-  enemy: {fileID: 4173562202610736011, guid: b38da32eeec676e4a80f1f8adce4df41, type: 3}
-  numberOfEnemy: 15
+  enemy: {fileID: 4173562202610736011, guid: 23f3e72e54f31e94a974f763e5aa8b62, type: 3}
+  numberOfEnemy: 3
   enemyDelay: 1
   batchDelay: 0
