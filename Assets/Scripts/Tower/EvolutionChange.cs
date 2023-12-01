@@ -47,12 +47,21 @@ public class EvolutionChange : MonoBehaviour
 
     private void TransferDataToNewEvolution(GameObject newEvolution)
     {
-        // Transfer any necessary data from this game object to the new one
-        towerTargeting.exp = newEvolution.GetComponent<TowerTargeting>().exp;
-        towerTargeting.level = newEvolution.GetComponent<TowerTargeting>().level;
-        towerTargeting.TargetingRangeBase = newEvolution.GetComponent<TowerTargeting>().TargetingRangeBase;
-        towerTargeting.AttackRateBase = newEvolution.GetComponent<TowerTargeting>().AttackRateBase;
-        towerTargeting.upgradeCost = newEvolution.GetComponent<TowerTargeting>().upgradeCost;
-        towerTargeting.eXPUpgradeCost = newEvolution.GetComponent<TowerTargeting>().eXPUpgradeCost;
+        TowerTargeting newTowerTargeting = newEvolution.GetComponent<TowerTargeting>();
+        if (newTowerTargeting != null)
+        {
+            newTowerTargeting.exp = this.towerTargeting.exp;
+            newTowerTargeting.level = this.towerTargeting.level;
+            newTowerTargeting.TargetingRangeBase = this.towerTargeting.TargetingRangeBase;
+            newTowerTargeting.AttackRateBase = this.towerTargeting.AttackRateBase;
+            newTowerTargeting.upgradeCost = this.towerTargeting.upgradeCost;
+            newTowerTargeting.eXPUpgradeCost = this.towerTargeting.eXPUpgradeCost;
+            // Add other relevant data transfers
+        }
+        else
+        {
+            Debug.LogError("New evolution does not have TowerTargeting component");
+        }
     }
+
 }

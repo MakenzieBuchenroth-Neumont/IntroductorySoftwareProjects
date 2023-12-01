@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
 using Unity.VisualScripting;
+using TMPro;
 
 public class TowerTargeting : MonoBehaviour
 {
@@ -15,6 +16,16 @@ public class TowerTargeting : MonoBehaviour
     [SerializeField] private SpriteChange spriteChange; // Make sure to assign this in the Inspector
     [SerializeField] private GameObject upgradeUI;
     [SerializeField] private Button upgradeButton;
+    [SerializeField] private GameObject TextMesh;
+
+    private TextMeshProUGUI textMeshPro
+    {
+        get
+        {
+            return TextMesh.GetComponent<TextMeshProUGUI>();
+        }
+    }
+
     private EvolutionChange evolutionChange;
 
     [Header("Attributes")]
@@ -30,6 +41,7 @@ public class TowerTargeting : MonoBehaviour
 
     private Transform target;
     private float attackTimer = 0.0f;
+    private string expUpdateText = "";
 
 
     public float Angle;
@@ -39,6 +51,8 @@ public class TowerTargeting : MonoBehaviour
     {
         TargetingRangeBase = targetingRange;
         AttackRateBase = attackRate;
+        expUpdateText = "EXP: " + exp + " / " + CalculateEXPCost();
+        textMeshPro.text = expUpdateText;
 
         FindTarget();
 
@@ -78,6 +92,8 @@ public class TowerTargeting : MonoBehaviour
             return;
         }
 
+        textMeshPro.text = expUpdateText;
+
         if (!CheckTargetIsInRange())
         {
             target = null;
@@ -96,6 +112,8 @@ public class TowerTargeting : MonoBehaviour
             Attack();
             attackTimer = 0.0f;
         }
+
+
     }
 
     private void Attack()
