@@ -6,7 +6,8 @@ public class Enemy : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] int hit_points = 0;
-    [SerializeField] float speed = 0.1f;
+    public float max_speed = 0.1f;
+    public float speed = 0.1f;
     [SerializeField] int max_hit_points = 0;
     [SerializeField] int damage = 0;
     [SerializeField] float xp_amount = 0.0f;
@@ -37,13 +38,13 @@ public class Enemy : MonoBehaviour
     private Path pathIfollow;
     private EnemySpawner spawner;
 
+    private float timer;
     public int currentpoint = 0;
     public float currentpathprogress = 0;
 
     public enum enemyType { Basic, Tank, Fast, Medic }
     public enemyType GetEnemyType() { return type; }
     public void SetEnemyType(enemyType ee) { type = ee; }
-    public bool flipped = true;
     public int[] status_effects;
 
     void Start()
@@ -54,7 +55,8 @@ public class Enemy : MonoBehaviour
                 hit_points = 5;
                 max_hit_points = hit_points;
                 damage = 1;
-                speed = 1.0f;
+                max_speed = 1.0f;
+                speed = max_speed;
                 xp_amount = 15.0f;
                 coin_amount = 5;
                 ChangeSprite(sprite1);
@@ -64,7 +66,8 @@ public class Enemy : MonoBehaviour
                 max_hit_points = hit_points;
                 ChangeSprite(sprite3);
                 damage = 3;
-                speed = 0.75f;
+                max_speed = 0.75f;
+                speed = max_speed;
                 xp_amount = 20.0f;
                 coin_amount = 12;
                 break;
@@ -72,7 +75,8 @@ public class Enemy : MonoBehaviour
                 hit_points = 3;
                 max_hit_points = hit_points;
                 damage = 2;
-                speed = 2.0f;
+                max_speed = 2.0f;
+                speed = max_speed;
                 xp_amount = 15.0f;
                 coin_amount = 10;
                 ChangeSprite(sprite2);
@@ -81,7 +85,8 @@ public class Enemy : MonoBehaviour
                 hit_points = 10;
                 max_hit_points = hit_points;
                 damage = 1;
-                speed = 1.5f;
+                max_speed = 1.5f;
+                speed = max_speed;
                 xp_amount = 10.0f;
                 coin_amount = 10;
                 break;
@@ -127,7 +132,10 @@ public class Enemy : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-
+        //if (timer >= 3 && this.e == enemyType.Medic)
+        //{
+        //    timer = 0.0f;
+        //}
     }
 
     private void OnDestroy()
@@ -187,9 +195,17 @@ public void UpdateSprite()
     public void TakeDamage(int damage)
     {
         hit_points -= damage;
-        if ( hit_points <= 0) 
+        if (hit_points <= 0)
         {
             Die();
+        }
+    }
+    public void GainHealth()
+    {
+        int healing = max_hit_points - (hit_points + 2);
+        if (hit_points < max_hit_points && hit_points > 0)
+        {
+        hit_points += healing;
         }
     }
     private void Die()

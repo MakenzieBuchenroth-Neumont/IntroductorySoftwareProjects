@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2dc415273cbd084a848b05f46e73db1, type: 3}
-  m_Name: new Wave
+  m_Script: {fileID: 11500000, guid: a5ed32b1dd0952740acff367c060210d, type: 3}
+  m_Name: medic batch
   m_EditorClassIdentifier: 
-  batches: []
+  enemy: {fileID: 4173562202610736011, guid: 23f3e72e54f31e94a974f763e5aa8b62, type: 3}
+  numberOfEnemy: 3
+  enemyDelay: 1
+  batchDelay: 0
