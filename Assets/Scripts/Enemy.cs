@@ -13,6 +13,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] float xp_amount = 0.0f;
     [SerializeField] int coin_amount = 0;
     [SerializeField] enemyType type;
+    [SerializeField] List<StatusEffect> mystatuseffects;
     //Enemy Types
     public Sprite sprite1;
     [SerializeField] private Sprite basic_up;
@@ -99,6 +100,19 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // update status effect stuff
+        for(int s = 0; s < mystatuseffects.Count; s++)
+        {
+            if (!mystatuseffects[s].IsStatusDone())
+            {
+                mystatuseffects[s].DoStatusEffect(this);
+            } else
+            {
+                mystatuseffects.RemoveAt(s);
+                s--;
+            }
+        }
+
         if (currentpoint < pathIfollow.pathway.Count - 1)
         {
             // move the enemy from the currentpoint point to the next path point based on speed
@@ -205,7 +219,7 @@ public void UpdateSprite()
         int healing = max_hit_points - (hit_points + 2);
         if (hit_points < max_hit_points && hit_points > 0)
         {
-        hit_points += healing;
+            hit_points += healing;
         }
     }
     private void Die()
