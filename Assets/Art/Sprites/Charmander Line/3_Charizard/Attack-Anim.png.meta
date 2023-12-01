@@ -126,10 +126,10 @@ TextureImporter:
       name: Attack-Anim_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 0
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: Attack-Anim_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 80
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: Attack-Anim_2
       rect:
         serializedVersion: 2
-        x: 161
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 160
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,9 +190,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: Attack-Anim_4
       rect:
         serializedVersion: 2
-        x: 319
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 320
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: Attack-Anim_5
       rect:
         serializedVersion: 2
-        x: 398
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 400
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +252,10 @@ TextureImporter:
       name: Attack-Anim_6
       rect:
         serializedVersion: 2
-        x: 477
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 480
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,10 +273,10 @@ TextureImporter:
       name: Attack-Anim_7
       rect:
         serializedVersion: 2
-        x: 556
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 560
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: Attack-Anim_8
       rect:
         serializedVersion: 2
-        x: 635
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 640
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,10 +315,10 @@ TextureImporter:
       name: Attack-Anim_9
       rect:
         serializedVersion: 2
-        x: 714
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 720
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: Attack-Anim_10
       rect:
         serializedVersion: 2
-        x: 793
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 800
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +357,10 @@ TextureImporter:
       name: Attack-Anim_11
       rect:
         serializedVersion: 2
-        x: 872
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 880
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +378,10 @@ TextureImporter:
       name: Attack-Anim_12
       rect:
         serializedVersion: 2
-        x: 951
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 960
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,10 +399,10 @@ TextureImporter:
       name: Attack-Anim_13
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 634.25
-        width: 71.78571
-        height: 67.75
+        x: 1040
+        y: 631
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,10 +420,10 @@ TextureImporter:
       name: Attack-Anim_14
       rect:
         serializedVersion: 2
-        x: 3
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 0
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +441,10 @@ TextureImporter:
       name: Attack-Anim_15
       rect:
         serializedVersion: 2
-        x: 82
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 80
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +462,10 @@ TextureImporter:
       name: Attack-Anim_16
       rect:
         serializedVersion: 2
-        x: 161
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 160
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,9 +484,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +504,10 @@ TextureImporter:
       name: Attack-Anim_18
       rect:
         serializedVersion: 2
-        x: 319
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 320
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: Attack-Anim_19
       rect:
         serializedVersion: 2
-        x: 398
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 400
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: Attack-Anim_20
       rect:
         serializedVersion: 2
-        x: 477
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 480
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,10 +567,10 @@ TextureImporter:
       name: Attack-Anim_21
       rect:
         serializedVersion: 2
-        x: 556
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 560
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,10 +588,10 @@ TextureImporter:
       name: Attack-Anim_22
       rect:
         serializedVersion: 2
-        x: 635
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 640
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,10 +609,10 @@ TextureImporter:
       name: Attack-Anim_23
       rect:
         serializedVersion: 2
-        x: 714
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 720
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,10 +630,10 @@ TextureImporter:
       name: Attack-Anim_24
       rect:
         serializedVersion: 2
-        x: 793
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 800
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -651,10 +651,10 @@ TextureImporter:
       name: Attack-Anim_25
       rect:
         serializedVersion: 2
-        x: 872
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 880
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -672,10 +672,10 @@ TextureImporter:
       name: Attack-Anim_26
       rect:
         serializedVersion: 2
-        x: 951
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 960
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -693,10 +693,10 @@ TextureImporter:
       name: Attack-Anim_27
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 547.25
-        width: 71.78571
-        height: 67.75
+        x: 1040
+        y: 543
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -714,10 +714,10 @@ TextureImporter:
       name: Attack-Anim_28
       rect:
         serializedVersion: 2
-        x: 3
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 0
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -735,10 +735,10 @@ TextureImporter:
       name: Attack-Anim_29
       rect:
         serializedVersion: 2
-        x: 82
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 80
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +756,10 @@ TextureImporter:
       name: Attack-Anim_30
       rect:
         serializedVersion: 2
-        x: 161
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 160
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,9 +778,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -798,10 +798,10 @@ TextureImporter:
       name: Attack-Anim_32
       rect:
         serializedVersion: 2
-        x: 319
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 320
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -819,10 +819,10 @@ TextureImporter:
       name: Attack-Anim_33
       rect:
         serializedVersion: 2
-        x: 398
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 400
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -840,10 +840,10 @@ TextureImporter:
       name: Attack-Anim_34
       rect:
         serializedVersion: 2
-        x: 477
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 480
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -861,10 +861,10 @@ TextureImporter:
       name: Attack-Anim_35
       rect:
         serializedVersion: 2
-        x: 556
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 560
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -882,10 +882,10 @@ TextureImporter:
       name: Attack-Anim_36
       rect:
         serializedVersion: 2
-        x: 635
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 640
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -903,10 +903,10 @@ TextureImporter:
       name: Attack-Anim_37
       rect:
         serializedVersion: 2
-        x: 714
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 720
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -924,10 +924,10 @@ TextureImporter:
       name: Attack-Anim_38
       rect:
         serializedVersion: 2
-        x: 793
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 800
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -945,10 +945,10 @@ TextureImporter:
       name: Attack-Anim_39
       rect:
         serializedVersion: 2
-        x: 872
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 880
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -966,10 +966,10 @@ TextureImporter:
       name: Attack-Anim_40
       rect:
         serializedVersion: 2
-        x: 951
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 960
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,10 +987,10 @@ TextureImporter:
       name: Attack-Anim_41
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 460.25
-        width: 71.78571
-        height: 67.75
+        x: 1040
+        y: 455
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1008,10 +1008,10 @@ TextureImporter:
       name: Attack-Anim_42
       rect:
         serializedVersion: 2
-        x: 3
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 0
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1029,10 +1029,10 @@ TextureImporter:
       name: Attack-Anim_43
       rect:
         serializedVersion: 2
-        x: 82
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 80
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1050,10 +1050,10 @@ TextureImporter:
       name: Attack-Anim_44
       rect:
         serializedVersion: 2
-        x: 161
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 160
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1072,9 +1072,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1092,10 +1092,10 @@ TextureImporter:
       name: Attack-Anim_46
       rect:
         serializedVersion: 2
-        x: 319
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 320
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1113,10 +1113,10 @@ TextureImporter:
       name: Attack-Anim_47
       rect:
         serializedVersion: 2
-        x: 398
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 400
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1134,10 +1134,10 @@ TextureImporter:
       name: Attack-Anim_48
       rect:
         serializedVersion: 2
-        x: 477
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 480
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1155,10 +1155,10 @@ TextureImporter:
       name: Attack-Anim_49
       rect:
         serializedVersion: 2
-        x: 556
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 560
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1176,10 +1176,10 @@ TextureImporter:
       name: Attack-Anim_50
       rect:
         serializedVersion: 2
-        x: 635
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 640
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1197,10 +1197,10 @@ TextureImporter:
       name: Attack-Anim_51
       rect:
         serializedVersion: 2
-        x: 714
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 720
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1218,10 +1218,10 @@ TextureImporter:
       name: Attack-Anim_52
       rect:
         serializedVersion: 2
-        x: 793
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 800
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1239,10 +1239,10 @@ TextureImporter:
       name: Attack-Anim_53
       rect:
         serializedVersion: 2
-        x: 872
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 880
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1260,10 +1260,10 @@ TextureImporter:
       name: Attack-Anim_54
       rect:
         serializedVersion: 2
-        x: 951
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 960
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1281,10 +1281,10 @@ TextureImporter:
       name: Attack-Anim_55
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 373.25
-        width: 71.78571
-        height: 67.75
+        x: 1040
+        y: 367
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1302,10 +1302,10 @@ TextureImporter:
       name: Attack-Anim_56
       rect:
         serializedVersion: 2
-        x: 3
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 0
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1323,10 +1323,10 @@ TextureImporter:
       name: Attack-Anim_57
       rect:
         serializedVersion: 2
-        x: 82
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 80
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1344,10 +1344,10 @@ TextureImporter:
       name: Attack-Anim_58
       rect:
         serializedVersion: 2
-        x: 161
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 160
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1366,9 +1366,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1386,10 +1386,10 @@ TextureImporter:
       name: Attack-Anim_60
       rect:
         serializedVersion: 2
-        x: 319
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 320
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1407,10 +1407,10 @@ TextureImporter:
       name: Attack-Anim_61
       rect:
         serializedVersion: 2
-        x: 398
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 400
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1428,10 +1428,10 @@ TextureImporter:
       name: Attack-Anim_62
       rect:
         serializedVersion: 2
-        x: 477
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 480
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1449,10 +1449,10 @@ TextureImporter:
       name: Attack-Anim_63
       rect:
         serializedVersion: 2
-        x: 556
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 560
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1470,10 +1470,10 @@ TextureImporter:
       name: Attack-Anim_64
       rect:
         serializedVersion: 2
-        x: 635
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 640
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1491,10 +1491,10 @@ TextureImporter:
       name: Attack-Anim_65
       rect:
         serializedVersion: 2
-        x: 714
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 720
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1512,10 +1512,10 @@ TextureImporter:
       name: Attack-Anim_66
       rect:
         serializedVersion: 2
-        x: 793
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 800
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1533,10 +1533,10 @@ TextureImporter:
       name: Attack-Anim_67
       rect:
         serializedVersion: 2
-        x: 872
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 880
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1554,10 +1554,10 @@ TextureImporter:
       name: Attack-Anim_68
       rect:
         serializedVersion: 2
-        x: 951
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 960
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1575,10 +1575,10 @@ TextureImporter:
       name: Attack-Anim_69
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 286.25
-        width: 71.78571
-        height: 67.75
+        x: 1040
+        y: 279
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1596,10 +1596,10 @@ TextureImporter:
       name: Attack-Anim_70
       rect:
         serializedVersion: 2
-        x: 3
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 0
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1617,10 +1617,10 @@ TextureImporter:
       name: Attack-Anim_71
       rect:
         serializedVersion: 2
-        x: 82
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 80
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1638,10 +1638,10 @@ TextureImporter:
       name: Attack-Anim_72
       rect:
         serializedVersion: 2
-        x: 161
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 160
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1660,9 +1660,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1680,10 +1680,10 @@ TextureImporter:
       name: Attack-Anim_74
       rect:
         serializedVersion: 2
-        x: 319
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 320
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1701,10 +1701,10 @@ TextureImporter:
       name: Attack-Anim_75
       rect:
         serializedVersion: 2
-        x: 398
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 400
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1722,10 +1722,10 @@ TextureImporter:
       name: Attack-Anim_76
       rect:
         serializedVersion: 2
-        x: 477
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 480
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1743,10 +1743,10 @@ TextureImporter:
       name: Attack-Anim_77
       rect:
         serializedVersion: 2
-        x: 556
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 560
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1764,10 +1764,10 @@ TextureImporter:
       name: Attack-Anim_78
       rect:
         serializedVersion: 2
-        x: 635
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 640
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1785,10 +1785,10 @@ TextureImporter:
       name: Attack-Anim_79
       rect:
         serializedVersion: 2
-        x: 714
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 720
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1806,10 +1806,10 @@ TextureImporter:
       name: Attack-Anim_80
       rect:
         serializedVersion: 2
-        x: 793
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 800
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1827,10 +1827,10 @@ TextureImporter:
       name: Attack-Anim_81
       rect:
         serializedVersion: 2
-        x: 872
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 880
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1848,10 +1848,10 @@ TextureImporter:
       name: Attack-Anim_82
       rect:
         serializedVersion: 2
-        x: 951
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 960
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1869,10 +1869,10 @@ TextureImporter:
       name: Attack-Anim_83
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 199.25
-        width: 71.78571
-        height: 67.75
+        x: 1040
+        y: 191
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1890,10 +1890,10 @@ TextureImporter:
       name: Attack-Anim_84
       rect:
         serializedVersion: 2
-        x: 3
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 0
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1911,10 +1911,10 @@ TextureImporter:
       name: Attack-Anim_85
       rect:
         serializedVersion: 2
-        x: 82
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 80
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1932,10 +1932,10 @@ TextureImporter:
       name: Attack-Anim_86
       rect:
         serializedVersion: 2
-        x: 161
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 160
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1954,9 +1954,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1974,10 +1974,10 @@ TextureImporter:
       name: Attack-Anim_88
       rect:
         serializedVersion: 2
-        x: 319
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 320
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1995,10 +1995,10 @@ TextureImporter:
       name: Attack-Anim_89
       rect:
         serializedVersion: 2
-        x: 398
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 400
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2016,10 +2016,10 @@ TextureImporter:
       name: Attack-Anim_90
       rect:
         serializedVersion: 2
-        x: 477
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 480
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2037,10 +2037,10 @@ TextureImporter:
       name: Attack-Anim_91
       rect:
         serializedVersion: 2
-        x: 556
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 560
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2058,10 +2058,10 @@ TextureImporter:
       name: Attack-Anim_92
       rect:
         serializedVersion: 2
-        x: 635
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 640
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2079,10 +2079,10 @@ TextureImporter:
       name: Attack-Anim_93
       rect:
         serializedVersion: 2
-        x: 714
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 720
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2100,10 +2100,10 @@ TextureImporter:
       name: Attack-Anim_94
       rect:
         serializedVersion: 2
-        x: 793
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 800
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2121,10 +2121,10 @@ TextureImporter:
       name: Attack-Anim_95
       rect:
         serializedVersion: 2
-        x: 872
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 880
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2142,10 +2142,10 @@ TextureImporter:
       name: Attack-Anim_96
       rect:
         serializedVersion: 2
-        x: 951
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 960
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2163,10 +2163,10 @@ TextureImporter:
       name: Attack-Anim_97
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 112.25
-        width: 71.78571
-        height: 67.75
+        x: 1040
+        y: 103
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2184,10 +2184,10 @@ TextureImporter:
       name: Attack-Anim_98
       rect:
         serializedVersion: 2
-        x: 3
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 0
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2205,10 +2205,10 @@ TextureImporter:
       name: Attack-Anim_99
       rect:
         serializedVersion: 2
-        x: 82
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 80
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2226,10 +2226,10 @@ TextureImporter:
       name: Attack-Anim_100
       rect:
         serializedVersion: 2
-        x: 161
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 160
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2248,9 +2248,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2268,10 +2268,10 @@ TextureImporter:
       name: Attack-Anim_102
       rect:
         serializedVersion: 2
-        x: 319
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 320
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2289,10 +2289,10 @@ TextureImporter:
       name: Attack-Anim_103
       rect:
         serializedVersion: 2
-        x: 398
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 400
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2310,10 +2310,10 @@ TextureImporter:
       name: Attack-Anim_104
       rect:
         serializedVersion: 2
-        x: 477
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 480
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2331,10 +2331,10 @@ TextureImporter:
       name: Attack-Anim_105
       rect:
         serializedVersion: 2
-        x: 556
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 560
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2352,10 +2352,10 @@ TextureImporter:
       name: Attack-Anim_106
       rect:
         serializedVersion: 2
-        x: 635
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 640
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2373,10 +2373,10 @@ TextureImporter:
       name: Attack-Anim_107
       rect:
         serializedVersion: 2
-        x: 714
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 720
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2394,10 +2394,10 @@ TextureImporter:
       name: Attack-Anim_108
       rect:
         serializedVersion: 2
-        x: 793
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 800
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2415,10 +2415,10 @@ TextureImporter:
       name: Attack-Anim_109
       rect:
         serializedVersion: 2
-        x: 872
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 880
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2436,10 +2436,10 @@ TextureImporter:
       name: Attack-Anim_110
       rect:
         serializedVersion: 2
-        x: 951
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 960
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2457,10 +2457,10 @@ TextureImporter:
       name: Attack-Anim_111
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 25.25
-        width: 71.78571
-        height: 67.75
+        x: 1040
+        y: 15
+        width: 80
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
