@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 
 public class TowerTargeting : MonoBehaviour
 {
@@ -14,37 +15,59 @@ public class TowerTargeting : MonoBehaviour
     [SerializeField] private SpriteChange spriteChange; // Make sure to assign this in the Inspector
     [SerializeField] private GameObject upgradeUI;
     [SerializeField] private Button upgradeButton;
+    [SerializeField] private EvolutionChange evolutionChange;
 
     [Header("Attributes")]
     [SerializeField] private float targetingRange = 2.0f;
     [SerializeField] private float attackRate = 1.0f; // 1 shot per second
-    [SerializeField] private int baseUpgradeCost = 100;
-    [SerializeField] private int baseEXPUpgradeCost = 100;
+    [SerializeField] public int upgradeCost = 100;
+    [SerializeField] public int eXPUpgradeCost = 100;
+    [SerializeField] public int level = 1;
+    [SerializeField] public int exp = 0;
 
-    private float targetingRangeBase;
-    private float attackRateBase;
+    public float TargetingRangeBase;
+    public float AttackRateBase;
 
     private Transform target;
     private float attackTimer = 0.0f;
 
-    private int level = 1;
 
     public float Angle;
 
     // Start is called before the first frame update
     void Start()
     {
-        targetingRangeBase = targetingRange;
-        attackRateBase = attackRate;
+        TargetingRangeBase = targetingRange;
+        AttackRateBase = attackRate;
 
         FindTarget();
+
         if (spriteChange == null)
         {
             Debug.LogError("SpriteChange component is not assigned.");
         }
 
-        upgradeButton.onClick.AddListener(Upgrade);
+        // Check and assign upgradeButton
+        if (upgradeButton != null)
+        {
+            upgradeButton.onClick.AddListener(Upgrade);
+        }
+        else
+        {
+            Debug.LogError("Upgrade Button is not assigned.");
+        }
+
+        // Initialize evolutionChange if not assigned
+        if (evolutionChange == null)
+        {
+            evolutionChange = GetComponent<EvolutionChange>();
+            if (evolutionChange == null)
+            {
+                Debug.LogError("EvolutionChange component is not assigned or not found.");
+            }
+        }
     }
+
 
     // Update is called once per frame
     private void Update()
@@ -119,12 +142,16 @@ public class TowerTargeting : MonoBehaviour
 
     public void Upgrade()
     {
-        if (CalculateCost() > LevelManager.main.currency && CalculateEXPCost() > LevelManager.main.exp)
+        if (CalculateCost() > LevelManager.main.currency && CalculateEXPCost() > this.exp)
         {
 
             LevelManager.main.spendCurrency(CalculateCost());
 
             level++;
+            if (evolutionChange.evolutionLevel < 2)
+            {
+                evolutionChange.evolutionLevel++;
+            }
 
             targetingRange = CalculateRange();
             attackRate = CalculateAttackRate();
@@ -139,7 +166,7 @@ public class TowerTargeting : MonoBehaviour
         {
             Debug.Log("Not enough money to upgrade.");
         }
-        else if (CalculateEXPCost() > LevelManager.main.exp)
+        else if (CalculateEXPCost() > this.exp)
         {
             Debug.Log("Not enough EXP to upgrade.");
         }
@@ -147,21 +174,41 @@ public class TowerTargeting : MonoBehaviour
 
     private int CalculateCost()
     {
-        return Mathf.RoundToInt(baseUpgradeCost * Mathf.Pow(level, 0.8f));
+        return Mathf.RoundToInt(upgradeCost * Mathf.Pow(level, 0.8f));
     }
 
     private int CalculateEXPCost()
     {
-        return Mathf.RoundToInt(baseEXPUpgradeCost * Mathf.Pow(level, 0.8f));
+        return Mathf.RoundToInt(eXPUpgradeCost * Mathf.Pow(level, 0.8f));
+    }
+
+    public void increaseExp(int amount)
+    {
+        exp += amount;
+    }
+
+    public bool spendExp(int amount)
+    {
+        if (amount <= exp)
+        {
+            // BUY
+            exp -= amount;
+            return true;
+        }
+        else
+        {
+            Debug.Log("Not enough exp");
+            return false;
+        }
     }
 
     private float CalculateRange()
     {
-        return targetingRangeBase * Mathf.Pow(level, 0.4f);
+        return TargetingRangeBase * Mathf.Pow(level, 0.4f);
     }
 
     private float CalculateAttackRate()
     {
-        return attackRateBase * Mathf.Pow(level, 0.6f);
+        return AttackRateBase * Mathf.Pow(level, 0.6f);
     }
 }
