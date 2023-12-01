@@ -28,7 +28,6 @@ public class EvolutionChange : MonoBehaviour
 
         if (towerTargeting.level == evolutionLevel)
         {
-            //towerTargeting.level++;
             Evolve();
         }
     }
@@ -56,7 +55,6 @@ public class EvolutionChange : MonoBehaviour
             newTowerTargeting.AttackRateBase = this.towerTargeting.AttackRateBase;
             newTowerTargeting.upgradeCost = this.towerTargeting.upgradeCost;
             newTowerTargeting.eXPUpgradeCost = this.towerTargeting.eXPUpgradeCost;
-            // Add other relevant data transfers
         }
         else
         {

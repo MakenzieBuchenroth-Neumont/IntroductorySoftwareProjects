@@ -43,7 +43,6 @@ public class TowerTargeting : MonoBehaviour
     private float attackTimer = 0.0f;
     private string expUpdateText = "";
 
-
     public float Angle;
 
     // Start is called before the first frame update
@@ -172,10 +171,6 @@ public class TowerTargeting : MonoBehaviour
             {
                 evolutionChange.Update();
                 evolutionChange.evolutionLevel++;
-            }
-            else
-            {
-                return;
             }
 
             targetingRange = CalculateRange();
