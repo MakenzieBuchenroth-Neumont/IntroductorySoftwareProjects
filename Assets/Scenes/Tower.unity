@@ -2135,6 +2135,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tower_Squirtle
       objectReference: {fileID: 0}
+    - target: {fileID: 5821889632106882596, guid: f3651b2f96c2c9f4dbeb8ebe1ba44a1e, type: 3}
+      propertyPath: spriteArray.Array.data[0]
+      value: 
+      objectReference: {fileID: -1335599240, guid: f2213a21d20f4d346ad99499970206a4, type: 3}
+    - target: {fileID: 5821889632106882596, guid: f3651b2f96c2c9f4dbeb8ebe1ba44a1e, type: 3}
+      propertyPath: spriteArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 823673477, guid: f2213a21d20f4d346ad99499970206a4, type: 3}
+    - target: {fileID: 5821889632106882596, guid: f3651b2f96c2c9f4dbeb8ebe1ba44a1e, type: 3}
+      propertyPath: spriteArray.Array.data[2]
+      value: 
+      objectReference: {fileID: -517481407, guid: f2213a21d20f4d346ad99499970206a4, type: 3}
+    - target: {fileID: 5821889632106882596, guid: f3651b2f96c2c9f4dbeb8ebe1ba44a1e, type: 3}
+      propertyPath: spriteArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 1864347210, guid: f2213a21d20f4d346ad99499970206a4, type: 3}
+    - target: {fileID: 5821889632106882596, guid: f3651b2f96c2c9f4dbeb8ebe1ba44a1e, type: 3}
+      propertyPath: spriteArray.Array.data[4]
+      value: 
+      objectReference: {fileID: -1815608986, guid: f2213a21d20f4d346ad99499970206a4, type: 3}
+    - target: {fileID: 5821889632106882596, guid: f3651b2f96c2c9f4dbeb8ebe1ba44a1e, type: 3}
+      propertyPath: spriteArray.Array.data[5]
+      value: 
+      objectReference: {fileID: -1983747185, guid: f2213a21d20f4d346ad99499970206a4, type: 3}
+    - target: {fileID: 5821889632106882596, guid: f3651b2f96c2c9f4dbeb8ebe1ba44a1e, type: 3}
+      propertyPath: spriteArray.Array.data[7]
+      value: 
+      objectReference: {fileID: 926609522, guid: f2213a21d20f4d346ad99499970206a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
