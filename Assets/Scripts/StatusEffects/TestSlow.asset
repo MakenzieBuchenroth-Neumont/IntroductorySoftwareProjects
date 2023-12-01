@@ -9,6 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7efd1a51a0e2ec148be99ecf165f7930, type: 3}
-  m_Name: Test
+  m_Script: {fileID: 11500000, guid: a715a964aca7476478c829e7477939a0, type: 3}
+  m_Name: TestSlow
   m_EditorClassIdentifier: 
+  statusDone: 0
+  modifiedSpeed: 0.75

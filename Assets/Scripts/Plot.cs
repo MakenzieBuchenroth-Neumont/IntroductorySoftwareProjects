@@ -23,11 +23,6 @@ public class Plot : MonoBehaviour {
         sr.color = startColor;
     }
     private void OnMouseDown() {
-        if (tower != null)
-        {
-            TowerMenu.TOWERMENU.SetUpMenu(tower);
-            return;
-        }
 
         if (!EventSystem.current.IsPointerOverGameObject())
         {

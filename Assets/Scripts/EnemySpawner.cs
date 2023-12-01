@@ -17,23 +17,26 @@ public class EnemySpawner : MonoBehaviour
 
     public void StartWave()
     {
-        if (currentWave < waves.Count)
+        if (!IsGameDone())
         {
             StartCoroutine(BatchSpawner());
             currentWave++;
-        } else
-        {
-            LevelManager.main.WinGame();
         }
+    }
+
+    private bool IsGameDone()
+    {
+        return !(currentWave < waves.Count);
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (IsGameDone() && (enemies.Count == 0 && usedBatches.Count == 0))
         {
-            StartWave();
+            LevelManager.main.WinGame();
         }
-        if (autostart && enemies.Count == 0 && usedBatches.Count == 0)
+
+        if (Input.GetKeyDown(KeyCode.Space) || (autostart && enemies.Count == 0 && usedBatches.Count == 0))
         {
             StartWave();
         }

@@ -6,12 +6,29 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "new DOT", menuName = "StatusEffects/DamageOverTime")]
 public class DamageOverTime : StatusEffect
 {
-    [SerializeField] float timeBetweenTicks = 0.25f;
-    [SerializeField] int tickAmount;
-    [SerializeField] int damage;
+    [SerializeField] float duration = 1.0f;
+    [SerializeField] int tickAmount = 1;
+    [SerializeField] int damage = 1;
 
-    public override void DoStatusEffect()
+    private float timerTotal = 0;
+    private float timerTick = 0;
+
+    public override void DoStatusEffect(Enemy enemyiamon)
     {
-        
+        if (!statusDone)
+        {
+            timerTotal += Time.deltaTime;
+            timerTick += Time.deltaTime;
+
+            if (timerTick >= (duration / tickAmount))
+            {
+                enemyiamon.TakeDamage(damage);
+            }
+
+            if (timerTotal >= duration)
+            {
+                statusDone = true;
+            }
+        }
     }
 }
