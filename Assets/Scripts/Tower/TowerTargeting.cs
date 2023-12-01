@@ -15,7 +15,7 @@ public class TowerTargeting : MonoBehaviour
     [SerializeField] private SpriteChange spriteChange; // Make sure to assign this in the Inspector
     [SerializeField] private GameObject upgradeUI;
     [SerializeField] private Button upgradeButton;
-    [SerializeField] private EvolutionChange evolutionChange;
+    private EvolutionChange evolutionChange;
 
     [Header("Attributes")]
     [SerializeField] private float targetingRange = 2.0f;
@@ -142,15 +142,22 @@ public class TowerTargeting : MonoBehaviour
 
     public void Upgrade()
     {
-        if (CalculateCost() > LevelManager.main.currency && CalculateEXPCost() > this.exp)
+        Debug.Log("Upgrade button clicked.");
+
+        if (CalculateCost() <= LevelManager.main.currency && CalculateEXPCost() <= this.exp)
         {
 
             LevelManager.main.spendCurrency(CalculateCost());
 
             level++;
-            if (evolutionChange.evolutionLevel < 2)
+            if (level == evolutionChange.evolutionLevel)
             {
+                evolutionChange.Update();
                 evolutionChange.evolutionLevel++;
+            }
+            else
+            {
+                return;
             }
 
             targetingRange = CalculateRange();
@@ -160,7 +167,8 @@ public class TowerTargeting : MonoBehaviour
             Debug.Log("Upgraded to level " + level);
             Debug.Log("New range: " + targetingRange);
             Debug.Log("New attack rate: " + attackRate);
-            Debug.Log("New cost: " + CalculateCost());
+            Debug.Log("New Money cost: " + CalculateCost());
+            Debug.Log("New EXP cost: " + CalculateEXPCost());
         }
         else if (CalculateCost() > LevelManager.main.currency)
         {

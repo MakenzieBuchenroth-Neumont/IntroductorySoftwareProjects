@@ -5,7 +5,7 @@ using UnityEngine;
 public class EvolutionChange : MonoBehaviour
 {
     [SerializeField] private GameObject nextEvolutionPrefab; // Prefab for the next evolution stage
-    [SerializeField] public int evolutionLevel = 0; // Levels at which evolution happens
+    [SerializeField] public int evolutionLevel = 3; // Levels at which evolution happens
     private TowerTargeting towerTargeting;
 
     private void Awake()
@@ -18,7 +18,7 @@ public class EvolutionChange : MonoBehaviour
         }
     }
 
-    private void Update()
+    public void Update()
     {
         if (towerTargeting == null)
         {
@@ -26,15 +26,12 @@ public class EvolutionChange : MonoBehaviour
             return;
         }
 
-        Debug.Log("Tower level: " + towerTargeting.level); // Check if level is accessible
-
         if (towerTargeting.level == evolutionLevel)
         {
-            towerTargeting.level++;
+            //towerTargeting.level++;
             Evolve();
         }
     }
-
 
     private void Evolve()
     {
