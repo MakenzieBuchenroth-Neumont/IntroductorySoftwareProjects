@@ -6,7 +6,17 @@ using UnityEngine;
 [Serializable]
 public abstract class StatusEffect : ScriptableObject
 {
-    public bool statusDone = false;
+    private bool statusDone = false;
 
     public abstract void DoStatusEffect(Enemy enemyiamon); 
+
+    public bool IsStatusDone()
+    {
+        return statusDone;
+    }
+
+    public void FinishStatus()
+    {
+        statusDone = true;
+    }
 }

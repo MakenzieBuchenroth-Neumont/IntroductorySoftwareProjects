@@ -15,7 +15,7 @@ public class DamageOverTime : StatusEffect
 
     public override void DoStatusEffect(Enemy enemyiamon)
     {
-        if (!statusDone)
+        if (!IsStatusDone())
         {
             timerTotal += Time.deltaTime;
             timerTick += Time.deltaTime;
@@ -23,11 +23,12 @@ public class DamageOverTime : StatusEffect
             if (timerTick >= (duration / tickAmount))
             {
                 enemyiamon.TakeDamage(damage);
+                timerTick = 0;
             }
 
             if (timerTotal >= duration)
             {
-                statusDone = true;
+                FinishStatus();
             }
         }
     }

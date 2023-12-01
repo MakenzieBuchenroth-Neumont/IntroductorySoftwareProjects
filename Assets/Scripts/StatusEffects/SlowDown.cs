@@ -6,9 +6,20 @@ using UnityEngine;
 public class SlowDown : StatusEffect
 {
     [SerializeField] float modifiedSpeed = 0.75f;
+    [SerializeField] float duration = 1.0f;
+
+    private float timerTotal = 0;
 
     public override void DoStatusEffect(Enemy enemyiamon)
     {
-        //enemyiamon.speed *= modifiedSpeed;
+        if (!IsStatusDone())
+        {
+            timerTotal += Time.deltaTime;
+            //enemyiamon.speed *= modifiedSpeed;
+            if (timerTotal >= duration)
+            {
+                FinishStatus();
+            }
+        }
     }
 }
