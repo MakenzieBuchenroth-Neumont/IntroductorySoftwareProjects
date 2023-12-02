@@ -10,8 +10,8 @@ public class DamageOverTime : StatusEffect
     [SerializeField] int tickAmount = 1;
     [SerializeField] int damage = 1;
 
-    private float timerTotal = 0;
-    private float timerTick = 0;
+    [SerializeField] private float timerTotal = 0;
+    [SerializeField] private float timerTick = 0;
 
     public override void DoStatusEffect(Enemy enemyiamon)
     {
@@ -28,6 +28,7 @@ public class DamageOverTime : StatusEffect
 
             if (timerTotal >= duration)
             {
+                enemyiamon.TakeDamage(damage);
                 FinishStatus();
             }
         }

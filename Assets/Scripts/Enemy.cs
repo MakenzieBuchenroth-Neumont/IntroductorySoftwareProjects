@@ -50,6 +50,16 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
+        if (mystatuseffects.Count > 0)
+        {
+            List<StatusEffect> effects = new List<StatusEffect>();
+            foreach(var effect in mystatuseffects)
+            {
+                effects.Add(Instantiate(effect));
+            }
+            mystatuseffects = effects;
+        }
+
         switch (type)
         {
             case enemyType.Basic:

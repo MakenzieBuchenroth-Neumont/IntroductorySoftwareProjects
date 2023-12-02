@@ -12,3 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7efd1a51a0e2ec148be99ecf165f7930, type: 3}
   m_Name: TestDOT
   m_EditorClassIdentifier: 
+  duration: 10
+  tickAmount: 5
+  damage: 1
+  timerTotal: 0
+  timerTick: 0

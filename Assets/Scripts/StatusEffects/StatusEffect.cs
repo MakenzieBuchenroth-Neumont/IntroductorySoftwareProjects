@@ -6,7 +6,7 @@ using UnityEngine;
 [Serializable]
 public abstract class StatusEffect : ScriptableObject
 {
-    private bool statusDone = false;
+    [SerializeField] private bool statusDone = false;
 
     public abstract void DoStatusEffect(Enemy enemyiamon); 
 
