@@ -21,7 +21,7 @@ public class BulbasaurLeaf : MonoBehaviour
 
         // attach RigidBody2D to leafRB object 
         leafRB = GetComponent<Rigidbody2D>();
-        MultipleLeaves();
+        //MultipleLeaves();
 
         // Check for input to shoot leaves - REPLACE WITH CORRECT KEY DOWN
         //if (Input.GetKeyDown(KeyCode.Space)) 

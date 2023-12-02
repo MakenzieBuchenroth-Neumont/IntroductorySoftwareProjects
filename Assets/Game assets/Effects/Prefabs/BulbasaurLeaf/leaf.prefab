@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -2.97, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -139,7 +139,7 @@ MonoBehaviour:
   leafSpeed: 6
   moveDirection: {x: 0, y: 1}
   leafRB: {fileID: 0}
-  leafPrefab: {fileID: 5837793806380523173, guid: e71e234acb0532143ace266a712b65b9, type: 3}
+  leafPrefab: {fileID: 4930562960413643765}
   leafEffect: {fileID: 0}
   targetCollisionTag: TargetObject
 --- !u!50 &6221018509717307053
