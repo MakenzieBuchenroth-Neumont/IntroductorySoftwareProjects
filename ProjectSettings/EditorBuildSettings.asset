@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pallet.unity
     guid: f6cc42173144b4547b42ab3cd9dd31d6
+  - enabled: 1
+    path: Assets/Scenes/Lavender.unity
+    guid: 8dfbf962206cedd4692cc1b51eb86745
   m_configObjects: {}
