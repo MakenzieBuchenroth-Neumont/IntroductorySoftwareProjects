@@ -24,7 +24,7 @@ namespace isp_projectiles
     void Update()
     {
         currentSpeed += acceleration * Time.deltaTime;
-        transform.Translate(Vector2.up * currentSpeed * Time.deltaTime);
+        transform.Translate(transform.right * currentSpeed * Time.deltaTime);
         Debug.Log("Current speed: " + currentSpeed);
 
             if(!smokeStart && currentSpeed > 0)

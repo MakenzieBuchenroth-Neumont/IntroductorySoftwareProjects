@@ -22,7 +22,7 @@ public class CharmanderFire : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() 
     {
         fireRB.velocity = moveDirection * fireSpeed; 
              

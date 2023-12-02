@@ -298,6 +298,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4ed7d7b91a9c28478c68141e9f3ad09, type: 3}
+--- !u!1 &344451468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 344451470}
+  - component: {fileID: 344451469}
+  m_Layer: 7
+  m_Name: BulbasaurLeaf_Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &344451469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344451468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b65c9722589dd48b823d4940a7f192, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  firePoint_B: {fileID: 0}
+--- !u!4 &344451470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344451468}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4800349, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &403193887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -405,6 +451,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 1904209657}
   firePoint_C: {fileID: 680254871}
+--- !u!1001 &492193270
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4930562960413643765, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: m_Name
+      value: leaf
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700354827980940409, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: leafPrefab
+      value: 
+      objectReference: {fileID: 4930562960413643765, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+    - target: {fileID: 8910033930421749695, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910033930421749695, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910033930421749695, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910033930421749695, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910033930421749695, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910033930421749695, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910033930421749695, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910033930421749695, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910033930421749695, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910033930421749695, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
 --- !u!1001 &506033532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1435,6 +1542,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4ed7d7b91a9c28478c68141e9f3ad09, type: 3}
+--- !u!1 &1843607970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1843607971}
+  m_Layer: 0
+  m_Name: FirePoint_BulbasaurLeaf_loc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1843607971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843607970}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.68, y: -4.21, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1904209657 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7364692154114637054, guid: d4ed7d7b91a9c28478c68141e9f3ad09, type: 3}
@@ -1641,6 +1779,7 @@ SceneRoots:
   - {fileID: 762298852}
   - {fileID: 528107041}
   - {fileID: 691156399}
+  - {fileID: 344451470}
   - {fileID: 446146021}
   - {fileID: 8209493593450827001}
   - {fileID: 117394847}
@@ -1655,3 +1794,5 @@ SceneRoots:
   - {fileID: 1176010709}
   - {fileID: 328322356}
   - {fileID: 1752453320}
+  - {fileID: 1843607971}
+  - {fileID: 492193270}
