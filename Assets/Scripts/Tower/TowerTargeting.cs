@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
+using UnityEditor;
+using UnityEngine.UI;
+using Unity.VisualScripting;
+using TMPro;
 
 public class TowerTargeting : MonoBehaviour
 {
@@ -11,25 +14,73 @@ public class TowerTargeting : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firingPoint;
     [SerializeField] private SpriteChange spriteChange; // Make sure to assign this in the Inspector
+    [SerializeField] private GameObject upgradeUI;
+    [SerializeField] private Button upgradeButton;
+    [SerializeField] private GameObject TextMesh;
+
+    private TextMeshProUGUI textMeshPro
+    {
+        get
+        {
+            return TextMesh.GetComponent<TextMeshProUGUI>();
+        }
+    }
+
+    private EvolutionChange evolutionChange;
 
     [Header("Attributes")]
     [SerializeField] private float targetingRange = 2.0f;
     [SerializeField] private float attackRate = 1.0f; // 1 shot per second
+    [SerializeField] public int upgradeCost = 100;
+    [SerializeField] public int eXPUpgradeCost = 100;
+    [SerializeField] public int level = 1;
+    [SerializeField] public int exp = 0;
+
+    public float TargetingRangeBase;
+    public float AttackRateBase;
 
     private Transform target;
     private float attackTimer = 0.0f;
+    private string expUpdateText = "";
 
     public float Angle;
 
     // Start is called before the first frame update
     void Start()
     {
+        TargetingRangeBase = targetingRange;
+        AttackRateBase = attackRate;
+        expUpdateText = "EXP: " + exp + " / " + CalculateEXPCost();
+        textMeshPro.text = expUpdateText;
+
         FindTarget();
+
         if (spriteChange == null)
         {
             Debug.LogError("SpriteChange component is not assigned.");
         }
+
+        // Check and assign upgradeButton
+        if (upgradeButton != null)
+        {
+            upgradeButton.onClick.AddListener(Upgrade);
+        }
+        else
+        {
+            Debug.LogError("Upgrade Button is not assigned.");
+        }
+
+        // Initialize evolutionChange if not assigned
+        if (evolutionChange == null)
+        {
+            evolutionChange = GetComponent<EvolutionChange>();
+            if (evolutionChange == null)
+            {
+                Debug.LogError("EvolutionChange component is not assigned or not found.");
+            }
+        }
     }
+
 
     // Update is called once per frame
     private void Update()
@@ -39,6 +90,8 @@ public class TowerTargeting : MonoBehaviour
             FindTarget();
             return;
         }
+
+        textMeshPro.text = expUpdateText;
 
         if (!CheckTargetIsInRange())
         {
@@ -58,11 +111,13 @@ public class TowerTargeting : MonoBehaviour
             Attack();
             attackTimer = 0.0f;
         }
+
+
     }
 
     private void Attack()
     {
-        Instantiate(bulletPrefab, transform.position, Quaternion.Euler(0, 0, Angle/2));
+        Debug.Log("Attacked");
     }
 
     private void FindTarget()
@@ -91,9 +146,90 @@ public class TowerTargeting : MonoBehaviour
         Angle = (Angle - 360) % 360; // Normalize angle to be within 0-360 degrees
     }
 
-    private void OnDrawGizmos()
+    public void OpenUpgradeUI()
     {
-        Handles.color = Color.black;
-        Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
+        upgradeUI.SetActive(true);
+    }
+
+    public void CloseUpgradeUI()
+    {
+        upgradeUI.SetActive(false);
+        UIManager.main.SetHoveringState(false);
+    }
+
+    public void Upgrade()
+    {
+        Debug.Log("Upgrade button clicked.");
+
+        if (CalculateCost() <= LevelManager.main.currency && CalculateEXPCost() <= this.exp)
+        {
+
+            LevelManager.main.spendCurrency(CalculateCost());
+
+            level++;
+            if (level == evolutionChange.evolutionLevel)
+            {
+                evolutionChange.Update();
+                evolutionChange.evolutionLevel++;
+            }
+
+            targetingRange = CalculateRange();
+            attackRate = CalculateAttackRate();
+
+            CloseUpgradeUI();
+            Debug.Log("Upgraded to level " + level);
+            Debug.Log("New range: " + targetingRange);
+            Debug.Log("New attack rate: " + attackRate);
+            Debug.Log("New Money cost: " + CalculateCost());
+            Debug.Log("New EXP cost: " + CalculateEXPCost());
+        }
+        else if (CalculateCost() > LevelManager.main.currency)
+        {
+            Debug.Log("Not enough money to upgrade.");
+        }
+        else if (CalculateEXPCost() > this.exp)
+        {
+            Debug.Log("Not enough EXP to upgrade.");
+        }
+    }
+
+    private int CalculateCost()
+    {
+        return Mathf.RoundToInt(upgradeCost * Mathf.Pow(level, 0.8f));
+    }
+
+    private int CalculateEXPCost()
+    {
+        return Mathf.RoundToInt(eXPUpgradeCost * Mathf.Pow(level, 0.8f));
+    }
+
+    public void increaseExp(int amount)
+    {
+        exp += amount;
+    }
+
+    public bool spendExp(int amount)
+    {
+        if (amount <= exp)
+        {
+            // BUY
+            exp -= amount;
+            return true;
+        }
+        else
+        {
+            Debug.Log("Not enough exp");
+            return false;
+        }
+    }
+
+    private float CalculateRange()
+    {
+        return TargetingRangeBase * Mathf.Pow(level, 0.4f);
+    }
+
+    private float CalculateAttackRate()
+    {
+        return AttackRateBase * Mathf.Pow(level, 0.6f);
     }
 }

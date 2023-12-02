@@ -12,7 +12,8 @@ public class LevelManager : MonoBehaviour {
     }
 
     private void Start() {
-        currency = 1000;
+        main = this;
+        currency = 10000;
     }
 
     public void increaseCurrency(int amount) {
@@ -26,7 +27,7 @@ public class LevelManager : MonoBehaviour {
             return true;
         }
         else {
-            Debug.Log("Can't afford");
+            Debug.Log("Not enough money");
             return false;
         }
     }
