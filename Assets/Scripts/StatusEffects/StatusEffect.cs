@@ -7,6 +7,7 @@ using UnityEngine;
 public abstract class StatusEffect : ScriptableObject
 {
     [SerializeField] private bool statusDone = false;
+    public TowerTargeting towerICameFrom;
 
     public abstract void DoStatusEffect(Enemy enemyiamon); 
 

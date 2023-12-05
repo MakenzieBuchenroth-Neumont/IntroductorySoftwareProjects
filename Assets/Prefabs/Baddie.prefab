@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 185838300471552964}
   - component: {fileID: 2570076778680864703}
   - component: {fileID: 4440616536998214541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Baddie
-  m_TagString: Untagged
+  m_TagString: bad_guy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,23 +55,23 @@ MonoBehaviour:
   coin_amount: 0
   type: 0
   mystatuseffects: []
-  sprite1: {fileID: 0}
-  basic_up: {fileID: 0}
-  basic_down: {fileID: 0}
-  basic_left: {fileID: 0}
-  sprite2: {fileID: 0}
-  fast_up: {fileID: 0}
-  fast_down: {fileID: 0}
-  fast_left: {fileID: 0}
-  sprite3: {fileID: 0}
-  big_up: {fileID: 0}
-  big_down: {fileID: 0}
-  big_left: {fileID: 0}
-  sprite4: {fileID: 0}
-  medic_up: {fileID: 0}
-  medic_down: {fileID: 0}
-  medic_left: {fileID: 0}
-  medic_heal: {fileID: 0}
+  sprite1: {fileID: 21300000, guid: b55f49fa3db7ea343b5d58dcbc095838, type: 3}
+  basic_up: {fileID: 21300000, guid: a16eb2e1ab36e254eb1b4f1352eff235, type: 3}
+  basic_down: {fileID: 21300000, guid: 4097c6b957683294ba15e501c5bdc573, type: 3}
+  basic_left: {fileID: 21300000, guid: d80ef0e8625c0fb42ad1dfcaca54849c, type: 3}
+  sprite2: {fileID: 21300000, guid: a7a9119c090d79b45a2c69f672a98b87, type: 3}
+  fast_up: {fileID: 21300000, guid: d8c22a6938157bf4f9e3e5525477d02a, type: 3}
+  fast_down: {fileID: 21300000, guid: aca4fab55111f09429a6ea4ddbc37e24, type: 3}
+  fast_left: {fileID: 21300000, guid: 5870f4edbd30c4f41ae440a836db6e95, type: 3}
+  sprite3: {fileID: 21300000, guid: 2672476a0524bee4ebe3e1c6ffcb9cd6, type: 3}
+  big_up: {fileID: 21300000, guid: b3791bdbe3934b842b24895ab94b5464, type: 3}
+  big_down: {fileID: 21300000, guid: 0ff96d6552421554c95fb98f8388e7dd, type: 3}
+  big_left: {fileID: 21300000, guid: 661c2a8d9e8ede34eaa0b3567c8a324e, type: 3}
+  sprite4: {fileID: 21300000, guid: 1f47a26a9a194b746bbcfb62b72529c8, type: 3}
+  medic_up: {fileID: 21300000, guid: a4bce3ae151bdd94e8adf5cb8abe6893, type: 3}
+  medic_down: {fileID: 21300000, guid: b46e492beee517a48b0780a9fdb2941a, type: 3}
+  medic_left: {fileID: 21300000, guid: 35b2bc986df63dd48a971a777ab1844b, type: 3}
+  medic_heal: {fileID: 21300000, guid: 8b8dcdc560a18234ab3edf899a24b0d7, type: 3}
   currentpoint: 0
   currentpathprogress: 0
   status_effects: 
@@ -150,13 +150,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d1bfddb1c950e2e46861c392a8fe7ff8, type: 3}
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: b55f49fa3db7ea343b5d58dcbc095838, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.63, y: 0.73}
+  m_Size: {x: 0.61, y: 0.67}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

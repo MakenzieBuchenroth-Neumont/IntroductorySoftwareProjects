@@ -37,6 +37,7 @@ public class EnemySpawner : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) || (autostart && enemies.Count == 0 && usedBatches.Count == 0))
         {
             StartWave();
+            autostart = true;
         }
     }
 
@@ -58,7 +59,6 @@ public class EnemySpawner : MonoBehaviour
         while (batch.numberOfEnemy > 0)
         {
             GameObject g = Instantiate(batch.GetEnemy());
-            Debug.Log(g.GetComponent<Enemy>());
             g.GetComponent<Enemy>().SetPath(paths[chosenpath]);
             g.GetComponent<Enemy>().SetEnemySpawner(this);
             enemies.Add(g);

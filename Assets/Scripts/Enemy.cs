@@ -50,6 +50,8 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
+
+        
         if (mystatuseffects.Count > 0)
         {
             List<StatusEffect> effects = new List<StatusEffect>();
@@ -110,6 +112,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        speed = max_speed;
         // update status effect stuff
         for(int s = 0; s < mystatuseffects.Count; s++)
         {
@@ -154,18 +157,13 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            //LevelManager.main.LoseLives(damage);
+            LevelManager.main.decreaseLives(damage);
             Destroy(this.gameObject);
         }
         //if (timer >= 3 && this.e == enemyType.Medic)
         //{
         //    timer = 0.0f;
         //}
-    }
-
-    private void OnDestroy()
-    {
-        spawner.RemoveEnemy(this.gameObject);
     }
 
     public void SetEnemySpawner(EnemySpawner e)
@@ -222,8 +220,8 @@ public void UpdateSprite()
         hit_points -= damage;
         if (hit_points <= 0)
         {
-            LevelManager.main.increaseCurrency(coin_amount);
-            //towerthatkilledme.increaseExp(xpamount);
+            LevelManager.main.increaseCurrency(coin_amount * 10);
+            towerthatkilledme.increaseExp((int)xp_amount * 10);
             Die();
         }
     }
@@ -235,8 +233,20 @@ public void UpdateSprite()
             hit_points += healing;
         }
     }
+
+    public void AddStatus(StatusEffect status)
+    {
+        List<StatusEffect> effects = new List<StatusEffect>();
+        foreach (var effect in mystatuseffects)
+        {
+            effects.Add(effect);
+        }
+        effects.Add(Instantiate(status));
+        mystatuseffects = effects;
+    }
     private void Die()
     {
+        spawner.RemoveEnemy(this.gameObject);
         Destroy(gameObject);
     }
 }

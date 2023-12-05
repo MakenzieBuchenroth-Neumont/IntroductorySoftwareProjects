@@ -120,7 +120,9 @@ public class TowerTargeting : MonoBehaviour
     private void Attack()
     {
         // spawn the projectile here
-        Debug.Log("Attacked");
+        GameObject proj = Instantiate(bulletPrefab, transform.position, Quaternion.Euler(0,0,Angle/2));
+        proj.GetComponent<Bullet>().SetTowerFrom(this);
+        //Debug.Log("Attacked");
     }
 
     private void FindTarget()
@@ -130,11 +132,11 @@ public class TowerTargeting : MonoBehaviour
         if (hits.Length > 0)
         {
             target = hits[0].transform;
-            Debug.Log("Target found: " + target.name);
+            //Debug.Log("Target found: " + target.name);
         }
         else
         {
-            Debug.Log("No target found.");
+            //Debug.Log("No target found.");
         }
     }
 

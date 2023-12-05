@@ -6,10 +6,17 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] int damage;
+    [SerializeField] private TowerTargeting towerIAmFrom;
+    [SerializeField] private StatusEffect effect;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(DieLater());
+    }
+
+    public void SetTowerFrom(TowerTargeting towerfrom)
+    {
+        towerIAmFrom = towerfrom;
     }
 
     // Update is called once per frame
@@ -29,7 +36,13 @@ public class Bullet : MonoBehaviour
     {
         if (collision.collider.tag == "bad_guy") 
         {
-            //collision.gameObject.GetComponent<Enemy>().TakeDamage(this.damage);
+            collision.gameObject.GetComponent<Enemy>().TakeDamage(this.damage, towerIAmFrom);
+            Debug.Log(effect);
+            if (effect != null)
+            {
+                collision.gameObject.GetComponent<Enemy>().AddStatus(effect);
+                effect.towerICameFrom = towerIAmFrom;
+            }
             Destroy(this.gameObject);
         }
     }
