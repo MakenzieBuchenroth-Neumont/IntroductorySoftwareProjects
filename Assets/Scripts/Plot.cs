@@ -39,6 +39,7 @@ public class Plot : MonoBehaviour {
             {
                 towerObj = Instantiate(towerToBuild.prefab, transform.position, Quaternion.identity);
                 towerTargeting = towerObj.GetComponent<TowerTargeting>();
+                towerTargeting.SetPlot(this);
             }
         }
     }

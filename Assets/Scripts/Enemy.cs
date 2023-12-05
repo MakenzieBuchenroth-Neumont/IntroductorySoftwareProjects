@@ -154,6 +154,7 @@ public class Enemy : MonoBehaviour
         }
         else
         {
+            //LevelManager.main.LoseLives(damage);
             Destroy(this.gameObject);
         }
         //if (timer >= 3 && this.e == enemyType.Medic)
@@ -216,11 +217,13 @@ public void UpdateSprite()
                 break;
         }
     }
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, TowerTargeting towerthatkilledme)
     {
         hit_points -= damage;
         if (hit_points <= 0)
         {
+            LevelManager.main.increaseCurrency(coin_amount);
+            //towerthatkilledme.increaseExp(xpamount);
             Die();
         }
     }

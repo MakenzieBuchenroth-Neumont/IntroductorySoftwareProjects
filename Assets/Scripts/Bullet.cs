@@ -29,7 +29,7 @@ public class Bullet : MonoBehaviour
     {
         if (collision.collider.tag == "bad_guy") 
         {
-            collision.gameObject.GetComponent<Enemy>().TakeDamage(this.damage);
+            //collision.gameObject.GetComponent<Enemy>().TakeDamage(this.damage);
             Destroy(this.gameObject);
         }
     }

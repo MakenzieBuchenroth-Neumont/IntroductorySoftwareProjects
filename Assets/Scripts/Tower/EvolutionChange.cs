@@ -7,6 +7,7 @@ public class EvolutionChange : MonoBehaviour
     [SerializeField] private GameObject nextEvolutionPrefab; // Prefab for the next evolution stage
     [SerializeField] public int evolutionLevel = 3; // Levels at which evolution happens
     private TowerTargeting towerTargeting;
+    private Plot p = null;
 
     private void Awake()
     {
@@ -28,17 +29,26 @@ public class EvolutionChange : MonoBehaviour
 
         if (towerTargeting.level == evolutionLevel)
         {
-            Evolve();
+            Evolve(p);
         }
     }
 
-    private void Evolve()
+    public void SetPlot(Plot plot)
+    {
+        p = plot;
+    }
+
+    private void Evolve(Plot plot)
     {
         // Instantiate the new evolution prefab
         GameObject newEvolution = Instantiate(nextEvolutionPrefab, transform.position, transform.rotation);
 
         // Transfer necessary data from the current object to the new one
         TransferDataToNewEvolution(newEvolution);
+
+        plot.towerObj = newEvolution;
+        plot.towerTargeting = newEvolution.GetComponent<TowerTargeting>();
+        plot.towerTargeting.SetPlot(plot);
 
         // Destroy the current game object
         Destroy(gameObject);

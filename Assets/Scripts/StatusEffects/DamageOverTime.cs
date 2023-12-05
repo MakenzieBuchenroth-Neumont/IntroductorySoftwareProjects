@@ -22,13 +22,13 @@ public class DamageOverTime : StatusEffect
 
             if (timerTick >= (duration / tickAmount))
             {
-                enemyiamon.TakeDamage(damage);
+                //enemyiamon.TakeDamage(damage);
                 timerTick = 0;
             }
 
             if (timerTotal >= duration)
             {
-                enemyiamon.TakeDamage(damage);
+                //enemyiamon.TakeDamage(damage);
                 FinishStatus();
             }
         }

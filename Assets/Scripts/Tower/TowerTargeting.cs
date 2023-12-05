@@ -36,6 +36,8 @@ public class TowerTargeting : MonoBehaviour
     [SerializeField] public int level = 1;
     [SerializeField] public int exp = 0;
 
+    private Plot plotIamon = null;
+
     public float TargetingRangeBase;
     public float AttackRateBase;
 
@@ -81,6 +83,10 @@ public class TowerTargeting : MonoBehaviour
         }
     }
 
+    public void SetPlot(Plot plot)
+    {
+        plotIamon = plot;
+    }
 
     // Update is called once per frame
     private void Update()
@@ -90,8 +96,6 @@ public class TowerTargeting : MonoBehaviour
             FindTarget();
             return;
         }
-
-        textMeshPro.text = expUpdateText;
 
         if (!CheckTargetIsInRange())
         {
@@ -111,12 +115,11 @@ public class TowerTargeting : MonoBehaviour
             Attack();
             attackTimer = 0.0f;
         }
-
-
     }
 
     private void Attack()
     {
+        // spawn the projectile here
         Debug.Log("Attacked");
     }
 
@@ -149,6 +152,8 @@ public class TowerTargeting : MonoBehaviour
     public void OpenUpgradeUI()
     {
         upgradeUI.SetActive(true);
+        expUpdateText = "EXP: " + exp + " / " + CalculateEXPCost();
+        textMeshPro.text = expUpdateText;
     }
 
     public void CloseUpgradeUI()
@@ -167,10 +172,14 @@ public class TowerTargeting : MonoBehaviour
             LevelManager.main.spendCurrency(CalculateCost());
 
             level++;
-            if (level == evolutionChange.evolutionLevel)
+            if (evolutionChange)
             {
-                evolutionChange.Update();
-                evolutionChange.evolutionLevel++;
+                if (level == evolutionChange.evolutionLevel)
+                {
+                    evolutionChange.SetPlot(plotIamon);
+                    evolutionChange.Update();
+                    //evolutionChange.evolutionLevel++;
+                }
             }
 
             targetingRange = CalculateRange();

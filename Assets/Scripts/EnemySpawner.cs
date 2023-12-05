@@ -31,7 +31,7 @@ public class EnemySpawner : MonoBehaviour
     {
         if (IsGameDone() && (enemies.Count == 0 && usedBatches.Count == 0))
         {
-            //LevelManager.main.WinGame();
+            LevelManager.main.WinGame();
         }
 
         if (Input.GetKeyDown(KeyCode.Space) || (autostart && enemies.Count == 0 && usedBatches.Count == 0))
@@ -58,6 +58,7 @@ public class EnemySpawner : MonoBehaviour
         while (batch.numberOfEnemy > 0)
         {
             GameObject g = Instantiate(batch.GetEnemy());
+            Debug.Log(g.GetComponent<Enemy>());
             g.GetComponent<Enemy>().SetPath(paths[chosenpath]);
             g.GetComponent<Enemy>().SetEnemySpawner(this);
             enemies.Add(g);

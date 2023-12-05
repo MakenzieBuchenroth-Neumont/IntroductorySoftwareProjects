@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5ed32b1dd0952740acff367c060210d, type: 3}
   m_Name: w1b1
   m_EditorClassIdentifier: 
-  enemy: {fileID: 7177020029656068024, guid: 609511b6d7251f04985d0a52fa4645d4, type: 3}
+  enemy: {fileID: 5689005079248033515, guid: 5cc36bf57cb774c4d99f0a22984e8d17, type: 3}
   numberOfEnemy: 30
   enemyDelay: 1.5
   batchDelay: 5
