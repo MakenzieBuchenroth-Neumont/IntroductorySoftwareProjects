@@ -124,7 +124,11 @@ public class TowerTargeting : MonoBehaviour
         if (bulletPrefab)
         {
             GameObject proj = Instantiate(bulletPrefab, transform.position, Quaternion.Euler(0, 0, Angle / 2));
-            proj.GetComponent<Bullet>().SetTowerFrom(this);
+
+            if (proj.GetComponent<BulbasaurLeaf>())
+            {
+                proj.GetComponent<BulbasaurLeaf>().SetTowerFrom(this);
+            }
         }
         //Debug.Log("Attacked");
     }

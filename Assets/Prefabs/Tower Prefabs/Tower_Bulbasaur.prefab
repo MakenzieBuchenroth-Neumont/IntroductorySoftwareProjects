@@ -55,7 +55,7 @@ MonoBehaviour:
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
-  bulletPrefab: {fileID: 9072534239795700235, guid: bb0b61f269eaef74497e378b891ecc48, type: 3}
+  bulletPrefab: {fileID: 4930562960413643765, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
   firingPoint: {fileID: 0}
   spriteChange: {fileID: 3320597073543208198}
   upgradeUI: {fileID: 8443192474531589712}
