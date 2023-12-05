@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 7700354827980940409}
   - component: {fileID: 6221018509717307053}
   - component: {fileID: 1505810053255318026}
-  - component: {fileID: 7944624688703444952}
   m_Layer: 7
   m_Name: leaf
   m_TagString: Untagged
@@ -32,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -2.97, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -138,9 +137,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leafSpeed: 6
   moveDirection: {x: 0, y: 1}
-  leafRB: {fileID: 0}
-  leafPrefab: {fileID: 4930562960413643765}
-  leafEffect: {fileID: 0}
+  leafRB: {fileID: 6221018509717307053}
+  leafEffect: {fileID: 8323465049921188815, guid: c37c36232ed38fc4687e4c02ef39181a, type: 3}
   targetCollisionTag: TargetObject
 --- !u!50 &6221018509717307053
 Rigidbody2D:
@@ -190,16 +188,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7944624688703444952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4930562960413643765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d58690e3d4db32a498105657d69b920e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyTime: 1

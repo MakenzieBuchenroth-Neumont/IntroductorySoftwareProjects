@@ -28,8 +28,5 @@ public class SquirtleWater : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnBecameInvisible()
-    {   // when out of camera view gets destroyed
-        Destroy(gameObject);
-    }
+    
 }

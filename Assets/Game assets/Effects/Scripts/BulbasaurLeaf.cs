@@ -8,7 +8,7 @@ public class BulbasaurLeaf : MonoBehaviour
     public float leafSpeed;
     public Vector2 moveDirection;
     public Rigidbody2D leafRB;
-    public GameObject leafPrefab; // assigned to leaf prefab in Unity
+    private GameObject leafPrefab; // assigned to leaf prefab in Unity
     public GameObject leafEffect;
 
     public string targetCollisionTag = "TargetObject";
@@ -54,31 +54,28 @@ public class BulbasaurLeaf : MonoBehaviour
 
     }
 
-    private void MultipleLeaves()
-    {
-        int numberOfLeaves = 3; 
-        float spreadAngle = 10f; // angle between each leaf
-        Vector2 startPosition = transform.position; // Starting position of the leaves
+    //private void MultipleLeaves()
+    //{
+    //    int numberOfLeaves = 3; 
+    //    float spreadAngle = 10f; // angle between each leaf
+    //    Vector2 startPosition = transform.position; // Starting position of the leaves
 
-        for (int i = 0; i < numberOfLeaves; i++)
-        {
-            // Calculate the rotation for each leaf
-            float rotationAngle = spreadAngle * (i - numberOfLeaves / 2);
-            Quaternion rotation = Quaternion.Euler(0, 0, rotationAngle);
+    //    for (int i = 0; i < numberOfLeaves; i++)
+    //    {
+    //        // Calculate the rotation for each leaf
+    //        float rotationAngle = spreadAngle * (i - numberOfLeaves / 2);
+    //        Quaternion rotation = Quaternion.Euler(0, 0, rotationAngle);
 
-            // Instantiate leaf prefab and set its initial properties
-            GameObject newLeaf = Instantiate(leafPrefab, startPosition, rotation);
-            Rigidbody2D rb = newLeaf.GetComponent<Rigidbody2D>();
+    //        // Instantiate leaf prefab and set its initial properties
+    //        GameObject newLeaf = Instantiate(leafPrefab, startPosition, rotation);
+    //        Rigidbody2D rb = newLeaf.GetComponent<Rigidbody2D>();
 
-            // Apply velocity in the direction the leaf is facing
-            rb.velocity = rotation * Vector2.up * leafSpeed;
-        }
-    }
+    //        // Apply velocity in the direction the leaf is facing
+    //        rb.velocity = rotation * Vector2.up * leafSpeed;
+    //    }
+    //}
 
-    private void OnBecameInvisible()
-    {   // when out of camera view gets destroyed
-        Destroy(gameObject);
-    }
+   
 }
 
 
