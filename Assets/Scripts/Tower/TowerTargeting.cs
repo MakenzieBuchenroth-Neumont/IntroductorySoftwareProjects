@@ -91,6 +91,8 @@ public class TowerTargeting : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        attackTimer += Time.deltaTime;
+
         if (target == null)
         {
             FindTarget();
@@ -109,7 +111,6 @@ public class TowerTargeting : MonoBehaviour
         // Change the sprite based on the angle
         spriteChange.ChangeSpriteBasedOnAngle(Angle);
 
-        attackTimer += Time.deltaTime;
         if (attackTimer >= 1.0f / attackRate)
         {
             Attack();
@@ -120,8 +121,11 @@ public class TowerTargeting : MonoBehaviour
     private void Attack()
     {
         // spawn the projectile here
-        GameObject proj = Instantiate(bulletPrefab, transform.position, Quaternion.Euler(0,0,Angle/2));
-        proj.GetComponent<Bullet>().SetTowerFrom(this);
+        if (bulletPrefab)
+        {
+            GameObject proj = Instantiate(bulletPrefab, transform.position, Quaternion.Euler(0, 0, Angle / 2));
+            proj.GetComponent<Bullet>().SetTowerFrom(this);
+        }
         //Debug.Log("Attacked");
     }
 
