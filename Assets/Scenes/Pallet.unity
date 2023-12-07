@@ -7059,6 +7059,9 @@ MonoBehaviour:
   waves:
   - {fileID: 11400000, guid: 93b3dd4af8ff06d4ebd7844e3108356a, type: 2}
   - {fileID: 11400000, guid: 9b1ae08fae6b1a046bca0e961e600fa0, type: 2}
+  - {fileID: 11400000, guid: f61cb61b55d35b6459112f5dc6a8934d, type: 2}
+  - {fileID: 11400000, guid: fdcd5c11397eb3f4181fda15ede8ce11, type: 2}
+  - {fileID: 11400000, guid: cf8b8a6953f236d4ba22afe084712696, type: 2}
 --- !u!4 &401643077
 Transform:
   m_ObjectHideFlags: 0

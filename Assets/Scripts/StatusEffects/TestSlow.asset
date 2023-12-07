@@ -15,5 +15,5 @@ MonoBehaviour:
   statusDone: 0
   towerICameFrom: {fileID: 0}
   modifySpeed: 0.75
-  duration: 0.1
+  duration: 0.5
   timerTotal: 0

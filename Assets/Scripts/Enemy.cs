@@ -227,10 +227,10 @@ public void UpdateSprite()
         }
         if (hit_points <= 0)
         {
-            LevelManager.main.increaseCurrency(coin_amount * 10);
+            LevelManager.main.increaseCurrency(coin_amount);
             foreach (var tower in towersthatkilledme)
             {
-                tower.increaseExp((int)xp_amount * 10);
+                tower.increaseExp((int)xp_amount);
             }
             Die();
         }

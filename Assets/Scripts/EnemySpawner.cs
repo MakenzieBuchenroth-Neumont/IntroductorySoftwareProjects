@@ -9,9 +9,9 @@ public class EnemySpawner : MonoBehaviour
     public bool autostart;
     [SerializeField] private int currentWave = 0;
     [SerializeField] private List<Wave> waves;
-    private List<Batch> usedBatches = new List<Batch>();
+    [SerializeField] private List<Batch> usedBatches = new List<Batch>();
 
-    private List<GameObject> enemies = new List<GameObject>();
+    [SerializeField] private List<GameObject> enemies = new List<GameObject>();
 
     public void StartWave()
     {
@@ -32,6 +32,24 @@ public class EnemySpawner : MonoBehaviour
         if (IsGameDone() && (enemies.Count == 0 && usedBatches.Count == 0))
         {
             LevelManager.main.WinGame();
+        }
+
+        for (int b = 0; b < usedBatches.Count; b++)
+        {
+            if (usedBatches[b] == null)
+            {
+                usedBatches.RemoveAt(b);
+                b--;
+            }
+        }
+
+        for (int e = 0; e < enemies.Count; e++)
+        {
+            if (enemies[e] == null)
+            {
+                enemies.RemoveAt(e);
+                e--;
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Space) || (autostart && enemies.Count == 0 && usedBatches.Count == 0))

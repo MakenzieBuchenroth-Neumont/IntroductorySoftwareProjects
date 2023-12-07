@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statusDone: 0
   towerICameFrom: {fileID: 0}
-  modifySpeed: -1.93
+  modifySpeed: -2
   duration: 0.1
   timerTotal: 0

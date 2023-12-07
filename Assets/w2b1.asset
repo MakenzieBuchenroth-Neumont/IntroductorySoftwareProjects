@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5ed32b1dd0952740acff367c060210d, type: 3}
-  m_Name: w1b1
+  m_Name: w2b1
   m_EditorClassIdentifier: 
-  enemy: {fileID: 5689005079248033515, guid: 5cc36bf57cb774c4d99f0a22984e8d17, type: 3}
-  numberOfEnemy: 10
-  enemyDelay: 2.5
-  batchDelay: 5
+  enemy: {fileID: 5689005079248033515, guid: 41e843714b51f5a42ac2dd5764a68c9f, type: 3}
+  numberOfEnemy: 5
+  enemyDelay: 1
+  batchDelay: 0
