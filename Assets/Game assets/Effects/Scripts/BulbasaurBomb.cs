@@ -14,6 +14,11 @@ public class BulbasaurBomb : MonoBehaviour
     [SerializeField] private StatusEffect effect;
     // Start is called before the first frame update
 
+    public void SetTowerFrom(TowerTargeting towerfrom)
+    {
+        towerIAmFrom = towerfrom;
+    }
+
     void Start()
     {   // attach RigidBody2D to bombRB object 
         bombRB = GetComponent<Rigidbody2D>();
@@ -23,7 +28,7 @@ public class BulbasaurBomb : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bombRB.velocity = (transform.rotation * moveDirection) * -bombSpeed; 
+        bombRB.velocity = (transform.rotation * moveDirection) * bombSpeed; 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

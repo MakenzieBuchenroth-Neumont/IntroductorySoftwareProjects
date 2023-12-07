@@ -17,6 +17,8 @@ public class TowerTargeting : MonoBehaviour
     [SerializeField] private GameObject upgradeUI;
     [SerializeField] private Button upgradeButton;
     [SerializeField] private GameObject TextMesh;
+    [SerializeField] private TextMeshProUGUI leveltext;
+    [SerializeField] private TextMeshProUGUI upgradecosttext;
 
     private TextMeshProUGUI textMeshPro
     {
@@ -54,6 +56,10 @@ public class TowerTargeting : MonoBehaviour
         AttackRateBase = attackRate;
         expUpdateText = "EXP: " + exp + " / " + CalculateEXPCost();
         textMeshPro.text = expUpdateText;
+        targetingRange = CalculateRange();
+        attackRate = CalculateAttackRate();
+        upgradecosttext.text = "Cost " + CalculateCost().ToString();
+        leveltext.text = "lvl " + level.ToString();
 
         FindTarget();
 
@@ -123,11 +129,27 @@ public class TowerTargeting : MonoBehaviour
         // spawn the projectile here
         if (bulletPrefab)
         {
-            GameObject proj = Instantiate(bulletPrefab, transform.position, Quaternion.Euler(0, 0, Angle / 2));
+            GameObject proj = Instantiate(bulletPrefab, transform.position, Quaternion.Euler(0, 0, Angle));
 
             if (proj.GetComponent<BulbasaurLeaf>())
             {
                 proj.GetComponent<BulbasaurLeaf>().SetTowerFrom(this);
+            } else if (proj.GetComponentsInChildren<BulbasaurLeaf>().Length != 0) {
+                foreach (var projes in proj.GetComponentsInChildren<BulbasaurLeaf>())
+                {
+                    projes.SetTowerFrom(this);
+                }
+            } else if (proj.GetComponent<BulbasaurBomb>())
+            {
+                proj.GetComponent<BulbasaurBomb>().SetTowerFrom(this);
+            }
+            else if (proj.GetComponent<CharmanderFire>())
+            {
+                proj.GetComponent<CharmanderFire>().SetTowerFrom(this);
+            }
+            else if (proj.GetComponent<SquirtleWater>())
+            {
+                proj.GetComponent<SquirtleWater>().SetTowerFrom(this);
             }
         }
         //Debug.Log("Attacked");
@@ -178,7 +200,7 @@ public class TowerTargeting : MonoBehaviour
 
         if (CalculateCost() <= LevelManager.main.currency && CalculateEXPCost() <= this.exp)
         {
-
+            this.exp -= CalculateEXPCost();
             LevelManager.main.spendCurrency(CalculateCost());
 
             level++;
@@ -194,6 +216,8 @@ public class TowerTargeting : MonoBehaviour
 
             targetingRange = CalculateRange();
             attackRate = CalculateAttackRate();
+            upgradecosttext.text = "Cost " + CalculateCost().ToString();
+            leveltext.text = "lvl " + level.ToString();
 
             CloseUpgradeUI();
             Debug.Log("Upgraded to level " + level);

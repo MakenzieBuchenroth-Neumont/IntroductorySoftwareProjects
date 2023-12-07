@@ -13,6 +13,11 @@ public class SquirtleWater : MonoBehaviour
     [SerializeField] private StatusEffect effect;
     // Start is called before the first frame update
 
+    public void SetTowerFrom(TowerTargeting towerfrom)
+    {
+        towerIAmFrom = towerfrom;
+    }
+
     void Start()
     {   // attach RigidBody2D to waterRB object 
         waterRB = GetComponent<Rigidbody2D>();
@@ -22,7 +27,7 @@ public class SquirtleWater : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        waterRB.velocity = (transform.rotation * moveDirection) * -waterSpeed; 
+        waterRB.velocity = (transform.rotation * moveDirection) * waterSpeed; 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

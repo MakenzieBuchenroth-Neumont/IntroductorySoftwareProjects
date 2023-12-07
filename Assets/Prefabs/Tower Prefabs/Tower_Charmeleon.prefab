@@ -61,6 +61,8 @@ MonoBehaviour:
   upgradeUI: {fileID: 1388916242551974017}
   upgradeButton: {fileID: 4086494392879188439}
   TextMesh: {fileID: 4204159518940879381}
+  leveltext: {fileID: 6036615978623196419}
+  upgradecosttext: {fileID: 7696369821848605699}
   targetingRange: 2
   attackRate: 1
   upgradeCost: 100
@@ -345,3 +347,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4094940388036674045, guid: 3f34cd530d0ff6f42a51e86a0e60b224, type: 3}
   m_PrefabInstance: {fileID: 183533060386446312}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6036615978623196419 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5857587068310882027, guid: 3f34cd530d0ff6f42a51e86a0e60b224, type: 3}
+  m_PrefabInstance: {fileID: 183533060386446312}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7696369821848605699 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7512837384922025963, guid: 3f34cd530d0ff6f42a51e86a0e60b224, type: 3}
+  m_PrefabInstance: {fileID: 183533060386446312}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

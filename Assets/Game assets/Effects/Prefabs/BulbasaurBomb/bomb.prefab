@@ -135,9 +135,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bombSpeed: 5
-  moveDirection: {x: 0, y: 1}
+  damage: 0
+  moveDirection: {x: 1, y: 0}
   bombRB: {fileID: 0}
   bombEffect: {fileID: 6226188671512530487, guid: a871d1e7f51f62c47b601193dabe4df6, type: 3}
+  towerIAmFrom: {fileID: 0}
+  effect: {fileID: 0}
 --- !u!50 &8949728396702789310
 Rigidbody2D:
   serializedVersion: 4

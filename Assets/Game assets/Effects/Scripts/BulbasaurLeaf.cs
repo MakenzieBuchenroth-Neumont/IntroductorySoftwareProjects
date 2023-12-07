@@ -39,7 +39,7 @@ public class BulbasaurLeaf : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        leafRB.velocity = (transform.rotation * moveDirection) * -leafSpeed;
+        leafRB.velocity = (transform.rotation * moveDirection) * leafSpeed;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -48,7 +48,7 @@ public class BulbasaurLeaf : MonoBehaviour
         if (collision.gameObject.tag == "bad_guy")
         {
             collision.gameObject.GetComponent<Enemy>().TakeDamage(this.damage, towerIAmFrom);
-            Debug.Log(effect);
+            //Debug.Log(effect);
             if (effect != null)
             {
                 collision.gameObject.GetComponent<Enemy>().AddStatus(effect);

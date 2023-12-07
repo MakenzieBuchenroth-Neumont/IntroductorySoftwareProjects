@@ -215,13 +215,23 @@ public void UpdateSprite()
                 break;
         }
     }
+
+    private List<TowerTargeting> towersthatkilledme = new List<TowerTargeting>();
+
     public void TakeDamage(int damage, TowerTargeting towerthatkilledme)
     {
         hit_points -= damage;
+        if (!towersthatkilledme.Contains(towerthatkilledme))
+        {
+            towersthatkilledme.Add(towerthatkilledme);
+        }
         if (hit_points <= 0)
         {
             LevelManager.main.increaseCurrency(coin_amount * 10);
-            towerthatkilledme.increaseExp((int)xp_amount * 10);
+            foreach (var tower in towersthatkilledme)
+            {
+                tower.increaseExp((int)xp_amount * 10);
+            }
             Die();
         }
     }

@@ -14,7 +14,13 @@ public class CharmanderFire : MonoBehaviour
     private SpriteRenderer fireSprite;
     [SerializeField] private TowerTargeting towerIAmFrom;
     [SerializeField] private StatusEffect effect;
+    [SerializeField] private int pierce = 1;
     // Start is called before the first frame update
+
+    public void SetTowerFrom(TowerTargeting towerfrom)
+    {
+        towerIAmFrom = towerfrom;
+    }
 
     void Start()
     {   // attach RigidBody2D to fireRB object 
@@ -27,7 +33,7 @@ public class CharmanderFire : MonoBehaviour
     // Update is called once per frame
     void Update() 
     {
-        fireRB.velocity = (transform.rotation * moveDirection) * -fireSpeed; 
+        fireRB.velocity = (transform.rotation * moveDirection) * fireSpeed; 
              
     }
 
@@ -55,7 +61,13 @@ public class CharmanderFire : MonoBehaviour
                 effect.towerICameFrom = towerIAmFrom;
             }
             Instantiate(fireEffect, transform.position, transform.rotation);
-            Destroy(gameObject);
+            if (pierce <= 0)
+            {
+                Destroy(gameObject);
+            } else
+            {
+                pierce--;
+            }
         }
     }
 

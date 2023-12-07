@@ -193,12 +193,14 @@ MonoBehaviour:
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
-  bulletPrefab: {fileID: 4930562960413643765, guid: b1f51104dc4542f4da1bdff9d4507ca3, type: 3}
+  bulletPrefab: {fileID: 1266157383748468953, guid: 86bf7300a8be70a43b9851df8a89c761, type: 3}
   firingPoint: {fileID: 0}
   spriteChange: {fileID: 5648118115688253983}
   upgradeUI: {fileID: 7062662405384193129}
   upgradeButton: {fileID: 5328832585081185599}
   TextMesh: {fileID: 5412721134547678973}
+  leveltext: {fileID: 2487020263417491947}
+  upgradecosttext: {fileID: 1984691520131332331}
   targetingRange: 2
   attackRate: 1
   upgradeCost: 100
@@ -319,6 +321,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f34cd530d0ff6f42a51e86a0e60b224, type: 3}
+--- !u!114 &1984691520131332331 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7512837384922025963, guid: 3f34cd530d0ff6f42a51e86a0e60b224, type: 3}
+  m_PrefabInstance: {fileID: 8343480881325094656}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2487020263417491947 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5857587068310882027, guid: 3f34cd530d0ff6f42a51e86a0e60b224, type: 3}
+  m_PrefabInstance: {fileID: 8343480881325094656}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5080891085407324409 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3840176448128303097, guid: 3f34cd530d0ff6f42a51e86a0e60b224, type: 3}

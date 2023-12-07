@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3710121840836403825}
   - component: {fileID: 6533727493019476489}
   - component: {fileID: 8288324763652588558}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,13 +29,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9061284423028145282}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.23, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.5203, y: 2.5203, z: 2.5203}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &2213495993670577880
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -143,7 +143,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.16
+  m_Radius: 0.07
 --- !u!114 &6533727493019476489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,9 +157,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waterSpeed: 6
-  moveDirection: {x: 0, y: 1}
+  damage: 1
+  moveDirection: {x: 1, y: 0}
   waterRB: {fileID: 8288324763652588558}
   waterEffect: {fileID: 6032855634359601713, guid: 4b2da94a9b00ae848965cf73ae5814dd, type: 3}
+  towerIAmFrom: {fileID: 0}
+  effect: {fileID: 0}
 --- !u!50 &8288324763652588558
 Rigidbody2D:
   serializedVersion: 4

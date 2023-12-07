@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6034331696703435789}
   - component: {fileID: 7227901636357179291}
   - component: {fileID: 7364692154114637054}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: fire Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,6 +208,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireSpeed: 5
-  moveDirection: {x: 0, y: 1}
+  damage: 1
+  moveDirection: {x: 1, y: 0}
   fireRB: {fileID: 0}
   fireEffect: {fileID: 4267457098598471343, guid: af807e29d34eff6469d2562137a67591, type: 3}
+  towerIAmFrom: {fileID: 0}
+  effect: {fileID: 0}
+  pierce: 1
