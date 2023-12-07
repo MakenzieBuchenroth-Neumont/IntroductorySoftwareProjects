@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a715a964aca7476478c829e7477939a0, type: 3}
-  m_Name: TestSlow
+  m_Name: Wartutrle
   m_EditorClassIdentifier: 
   statusDone: 0
   towerICameFrom: {fileID: 0}
-  modifySpeed: 0.75
+  modifySpeed: 0.35
   duration: 0.1
   timerTotal: 0

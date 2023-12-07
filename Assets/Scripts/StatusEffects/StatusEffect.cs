@@ -16,7 +16,7 @@ public abstract class StatusEffect : ScriptableObject
         return statusDone;
     }
 
-    public void FinishStatus()
+    public virtual void FinishStatus()
     {
         statusDone = true;
     }

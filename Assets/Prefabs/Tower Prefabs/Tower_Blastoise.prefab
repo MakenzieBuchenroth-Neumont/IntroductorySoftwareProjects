@@ -192,7 +192,7 @@ MonoBehaviour:
   enemyMask:
     serializedVersion: 2
     m_Bits: 64
-  bulletPrefab: {fileID: 9061284423028145282, guid: 37a26314eacc72f4991b0c277ab1029d, type: 3}
+  bulletPrefab: {fileID: 9061284423028145282, guid: 5c7f07180f74bea45b86190a19f8df4a, type: 3}
   firingPoint: {fileID: 0}
   spriteChange: {fileID: 3838876259996430822}
   upgradeUI: {fileID: 1223886259985436572}
@@ -201,7 +201,7 @@ MonoBehaviour:
   leveltext: {fileID: 5799558630562150942}
   upgradecosttext: {fileID: 7598850704193614622}
   targetingRange: 2
-  attackRate: 1
+  attackRate: 3
   upgradeCost: 100
   eXPUpgradeCost: 100
   level: 1

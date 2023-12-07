@@ -11,6 +11,7 @@ public class SquirtleWater : MonoBehaviour
     public GameObject waterEffect;
     [SerializeField] private TowerTargeting towerIAmFrom;
     [SerializeField] private StatusEffect effect;
+    [SerializeField] private int pierce = 1;
     // Start is called before the first frame update
 
     public void SetTowerFrom(TowerTargeting towerfrom)
@@ -42,7 +43,14 @@ public class SquirtleWater : MonoBehaviour
                 effect.towerICameFrom = towerIAmFrom;
             }
             Instantiate(waterEffect, transform.position, transform.rotation);
-            Destroy(gameObject);
+            if (pierce <= 0)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                pierce--;
+            }
         }
     }
 }

@@ -201,7 +201,7 @@ MonoBehaviour:
   TextMesh: {fileID: 3556147184777220483}
   leveltext: {fileID: 6397235679807592085}
   upgradecosttext: {fileID: 7047898500636876693}
-  targetingRange: 2
+  targetingRange: 1.5
   attackRate: 1
   upgradeCost: 100
   eXPUpgradeCost: 100

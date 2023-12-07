@@ -112,7 +112,6 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speed = max_speed;
         // update status effect stuff
         for(int s = 0; s < mystatuseffects.Count; s++)
         {
@@ -133,6 +132,7 @@ public class Enemy : MonoBehaviour
             {
                 transform.position = Vector3.Lerp(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1], currentpathprogress);
                 currentpathprogress += (speed / Vector2.Distance(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1])) * Time.deltaTime;
+                UpdateSprite();
             }
 
             if (speed > 0)
@@ -238,6 +238,7 @@ public void UpdateSprite()
     public void GainHealth()
     {
         int healing = max_hit_points - (hit_points + 2);
+        Debug.Log(name + " has gained health");
         if (hit_points < max_hit_points && hit_points > 0)
         {
             hit_points += healing;
