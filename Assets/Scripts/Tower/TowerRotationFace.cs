@@ -102,9 +102,9 @@ public class TowerRotationFace : MonoBehaviour
     }
     */
 
-    private void OnDrawGizmosSelected()
-    {
-        Handles.color = Color.green;
-        Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
-    }
+    //private void OnDrawGizmosSelected()
+    //{
+    //    Handles.color = Color.green;
+    //    Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
+    //}
 }
