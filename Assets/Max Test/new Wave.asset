@@ -10,9 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c2dc415273cbd084a848b05f46e73db1, type: 3}
-  m_Name: w1
+  m_Name: new Wave
   m_EditorClassIdentifier: 
-  batches:
-  - {fileID: 11400000, guid: 508939493e249b94890bd4d8c8b82d70, type: 2}
-  - {fileID: 11400000, guid: 1f6abf6efb8a37f46b01e34615931177, type: 2}
-  - {fileID: 11400000, guid: 7592337a0e4b2fc4c86ee6354289baee, type: 2}
+  batches: []

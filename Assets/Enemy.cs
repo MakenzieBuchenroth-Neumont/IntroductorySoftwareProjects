@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] int damage = 0;
     [SerializeField] float xp_amount = 0.0f;
     [SerializeField] int coin_amount = 0;
-    [SerializeField] enemyType type;
+    public enemyType type;
     //Enemy Types
     public Sprite sprite1;
     [SerializeField] private Sprite basic_up;
@@ -38,13 +38,12 @@ public class Enemy : MonoBehaviour
     private Path pathIfollow;
     private EnemySpawner spawner;
 
-    private float timer;
+    [SerializeField] float timer;
     public int currentpoint = 0;
     public float currentpathprogress = 0;
 
     public enum enemyType { Basic, Tank, Fast, Medic }
     public enemyType GetEnemyType() { return type; }
-    public void SetEnemyType(enemyType ee) { type = ee; }
     public int[] status_effects;
 
     void Start()
@@ -97,7 +96,7 @@ public class Enemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    async void Update()
     {
         if (currentpoint < pathIfollow.pathway.Count - 1)
         {
@@ -106,6 +105,7 @@ public class Enemy : MonoBehaviour
             {
                 transform.position = Vector3.Lerp(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1], currentpathprogress);
                 currentpathprogress += (speed / Vector2.Distance(pathIfollow.pathway[currentpoint], pathIfollow.pathway[currentpoint + 1])) * Time.deltaTime;
+                UpdateSprite();
             }
 
             if (speed > 0)
@@ -132,10 +132,6 @@ public class Enemy : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-        //if (timer >= 3 && this.e == enemyType.Medic)
-        //{
-        //    timer = 0.0f;
-        //}
     }
 
     private void OnDestroy()
@@ -155,8 +151,9 @@ public class Enemy : MonoBehaviour
     public void ChangeSprite(Sprite newSprite) 
     { 
         GetComponent<SpriteRenderer>().sprite = newSprite;
+
     }
-public void UpdateSprite()
+    public void UpdateSprite()
     {
         Vector3 newpos = pathIfollow.pathway[currentpoint + 1];
         Vector3 currentpos = pathIfollow.pathway[currentpoint];
